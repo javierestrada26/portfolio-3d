@@ -26,12 +26,14 @@ Personal portfolio built on Next.js 16 (App Router) + React 19 + TypeScript, wit
 ## Spec-driven workflow
 
 - Project skills in `.agents/skills/`: `spec` and `spec-impl`. Both set `disable-model-invocation: true`, so only the user runs them (`/spec`, `/spec-impl`); don't invoke them yourself.
-- `/spec <description>` designs a spec and saves it as `specs/NN-slug.md` in `Draft` state. It writes no code. Structure: `.agents/skills/spec/template.md`.
+- `/spec <description>` designs a spec and saves it as `specs/NN-slug.md` in `Draft` state. All specs must be created in the project-root `specs/` folder, never in external plan directories. It writes no code. Structure: `.agents/skills/spec/template.md`.
 - `/spec-impl NN-slug` implements only specs whose state means "Approved" (`Approved`, `Aprobado`, etc.) and stops on any other state. It creates and switches to branch `spec-NN-slug`, then implements one plan step at a time, pausing for review.
+- Verification agent `.opencode/agents/spec-verify.md` (`spec-verify`, mode `all`, project-level): checks each acceptance criterion of a spec against the real code and the running app, then marks the checklist in `specs/NN-slug.md` with evidence. It uses Context7 to confirm the implementation follows current Next.js recommendations, Playwright at the exact viewport for visual criteria, and `pnpm lint`/`pnpm typecheck` (via cmd) for command criteria. Launch it as a subagent ("use spec-verify on spec 01") or select it as primary (TUI agent picker, or `opencode run --agent spec-verify`).
+- `spec-verify` only edits files under `specs/**` — never app code — and never changes a spec's state, never commits. Criteria it cannot verify objectively are reported as unverified instead of guessed. When it reports all criteria passing, the user sets the spec's state to `Implemented`.
 - Don't change a spec's state to `Approved` or `Implemented` yourself; the user does that.
 - `specs/.spec-config.yml` controls git behavior: `AutoCreateBranch` (default `true`) and `AutoCommitSteps` (default `false`). If it exists, don't overwrite it.
 - Commits: don't commit or push unless `AutoCommitSteps: true` or the user asks. Never use `git add -A` or `git add .`, and never `--no-verify`. Step commits are named `spec-NN-step-MM`.
-- `specs/` and the config file do not exist in the repo yet.
+- `specs/` exists on disk (spec 01) but is not committed to git yet; `specs/.spec-config.yml` does not exist, so the defaults apply.
 
 ## Config gotchas
 
