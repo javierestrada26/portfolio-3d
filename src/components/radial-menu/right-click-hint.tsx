@@ -26,7 +26,6 @@ export function RightClickHint({ dismissed }: { dismissed: boolean }) {
   // Dismiss permanently when user opens the radial menu
   useEffect(() => {
     if (dismissed && visible) {
-      setVisible(false);
       localStorage.setItem(STORAGE_KEY, '1');
     }
   }, [dismissed, visible]);
@@ -34,7 +33,7 @@ export function RightClickHint({ dismissed }: { dismissed: boolean }) {
   return (
     <div className='hidden md:flex'>
       <AnimatePresence>
-        {visible && (
+        {visible && !dismissed && (
           <motion.div
             initial={{ opacity: 0, y: 10, x: '-50%' }}
             animate={{ opacity: 1, y: 0, x: '-50%' }}

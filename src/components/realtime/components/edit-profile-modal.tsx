@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useMemo } from "react";
 import { createPortal } from "react-dom";
+import Image from "next/image";
 import { motion } from "motion/react";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Button } from "@/components/ui/button";
@@ -39,14 +40,18 @@ export const EditProfileModal = ({
   const [color, setColor] = useState(user.color || COLORS[0]);
   const avatarSeeds = useMemo(() => Array.from({ length: 100 }, (_, i) => (i + 1).toString()), []);
 
-  // Reset state when opening
-  useEffect(() => {
+  // Reset state when opening (or when the user changes while open).
+  const [prevOpen, setPrevOpen] = useState(isOpen);
+  const [prevUser, setPrevUser] = useState(user);
+  if (isOpen !== prevOpen || user !== prevUser) {
+    setPrevOpen(isOpen);
+    setPrevUser(user);
     if (isOpen) {
       setName(user.name);
       setAvatarSeed(user.avatar);
       setColor(user.color || COLORS[0]);
     }
-  }, [isOpen, user]);
+  }
 
   const handleSave = () => {
     if (name.trim()) {
@@ -84,9 +89,12 @@ export const EditProfileModal = ({
         {/* Header with preview */}
         <div className="flex items-center gap-3 mb-4 pb-3 border-b border-black/10 dark:border-white/10 shrink-0">
           <div className="relative">
-            <img
+            <Image
               src={getAvatarUrl(avatarSeed)}
               alt="Preview"
+              width={48}
+              height={48}
+              unoptimized
               className="w-12 h-12 rounded-full ring-2 ring-offset-2 ring-offset-white dark:ring-offset-[#2b2d31]"
               style={{ backgroundColor: color, "--tw-ring-color": color } as React.CSSProperties}
             />
@@ -132,8 +140,11 @@ export const EditProfileModal = ({
                   )}
                   onClick={() => setAvatarSeed(seed)}
                 >
-                  <img
+                  <Image
                     src={getAvatarUrl(seed)}
+                    width={64}
+                    height={64}
+                    unoptimized
                     className="w-full h-full rounded-full"
                     style={{ backgroundColor: color }}
                     loading="lazy"

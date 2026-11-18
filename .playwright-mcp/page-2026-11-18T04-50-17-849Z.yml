@@ -1,0 +1,55 @@
+- generic [active] [ref=f4e1]:
+  - generic [ref=f4e6] [cursor=pointer]:
+    - button "Open Next.js Dev Tools" [ref=f4e7]
+    - generic [ref=f4e11]:
+      - button "Open issues overlay" [ref=f4e12]:
+        - generic [ref=f4e13]:
+          - generic [aria-hidden] [ref=f4e14]: "3"
+          - generic [ref=f4e15]: "4"
+        - generic [ref=f4e16]:
+          - text: Issue
+          - generic [aria-hidden] [ref=f4e17]: s
+      - button "Collapse issues badge" [ref=f4e18]
+  - banner [ref=f4e21]:
+    - generic [ref=f4e22]:
+      - link [ref=f4e23] [cursor=pointer]:
+        - /url: /
+        - button "Naresh Khatri" [ref=f4e24]
+      - button "Toggle theme" [ref=f4e25]
+      - link "001234567890012345678900123456789001234567890012345678900123456789" [ref=f4e34] [cursor=pointer]:
+        - /url: https://github.com/naresh-khatri/3d-portfolio
+        - generic [ref=f4e38]:
+          - generic [ref=f4e39]:
+            - generic [ref=f4e40]: "00123456789"
+            - generic [ref=f4e42]: "00123456789"
+            - generic [ref=f4e44]: "00123456789"
+            - generic [ref=f4e46]: "00123456789"
+          - generic [ref=f4e48]:
+            - generic [ref=f4e49]: "00123456789"
+            - generic [ref=f4e51]: "00123456789"
+      - button "Open menu" [ref=f4e58]:
+        - generic [ref=f4e59]:
+          - paragraph [ref=f4e60]: Menu
+          - paragraph [ref=f4e61]: Close
+  - generic [ref=f4e62]:
+    - generic [ref=f4e64]:
+      - link "Back to portfolio" [ref=f4e65] [cursor=pointer]:
+        - /url: /
+      - button [ref=f4e68]:
+        - link "Download PDF" [ref=f4e69] [cursor=pointer]:
+          - /url: /Naresh_Khatri_Resume.pdf
+    - generic [ref=f4e75]:
+      - iframe [ref=f4e76]
+      - button "Doodle on it" [ref=f4e79]
+  - contentinfo [ref=f4e84]:
+    - paragraph [ref=f4e85]: © 2026 Naresh Khatri. All rights reserved.
+    - navigation [ref=f4e86]:
+      - link [ref=f4e87] [cursor=pointer]:
+        - /url: /blogs
+        - button "Blog" [ref=f4e88]
+      - link [ref=f4e89] [cursor=pointer]:
+        - /url: /news
+        - button "Newsletter" [ref=f4e90]
+  - region "Notifications (F8)":
+    - list
+  - alert [ref=f4e93]

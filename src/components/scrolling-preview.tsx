@@ -35,7 +35,8 @@ const ScrollingPreview = ({
   const { reducedMotion: reduceMotion } = usePerfProfile();
   const viewportRef = useRef<HTMLDivElement>(null);
   const [scrollPx, setScrollPx] = useState(0);
-  const [bgReady, setBgReady] = useState(false);
+  const [loadedBg, setLoadedBg] = useState<string | null>(null);
+  const bgReady = !!bg && loadedBg === bg;
 
   useEffect(() => {
     let cancelled = false;
@@ -62,14 +63,11 @@ const ScrollingPreview = ({
   // Preload the wallpaper so a missing/404 file falls back to the gradient
   // instead of rendering a broken background.
   useEffect(() => {
-    if (!bg) {
-      setBgReady(false);
-      return;
-    }
+    if (!bg) return;
     let cancelled = false;
     const img = new window.Image();
-    img.onload = () => !cancelled && setBgReady(true);
-    img.onerror = () => !cancelled && setBgReady(false);
+    img.onload = () => !cancelled && setLoadedBg(bg);
+    img.onerror = () => !cancelled && setLoadedBg(null);
     img.src = bg;
     return () => {
       cancelled = true;

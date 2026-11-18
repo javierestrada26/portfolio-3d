@@ -1,5 +1,6 @@
 import React, { useContext, useMemo } from "react";
 import { motion, AnimatePresence } from "motion/react";
+import Image from "next/image";
 import { Users, Edit } from "lucide-react";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Button } from "@/components/ui/button";
@@ -101,9 +102,12 @@ const UserItem = ({
     >
       <div className="flex items-center gap-3 w-full">
         <div className="relative">
-          <img
+          <Image
             src={getAvatarUrl(user.avatar)}
             alt={user.name}
+            width={32}
+            height={32}
+            unoptimized
             className="w-8 h-8 rounded-full"
             style={{ backgroundColor: user.color || '#60a5fa' }}
           />

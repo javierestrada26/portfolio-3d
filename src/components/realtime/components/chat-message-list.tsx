@@ -1,5 +1,6 @@
 import React, { memo, useCallback, useContext, useEffect, useMemo, useRef, useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
+import Image from "next/image";
 import { Reply, Pencil, Loader2 } from "lucide-react";
 import { differenceInMinutes, format, isToday, isYesterday } from "date-fns";
 import { ArrowDown, Hash } from "lucide-react";
@@ -219,9 +220,12 @@ const MessageRow = memo(function MessageRow({
             className={cn("relative w-10 h-10 flex-shrink-0 mt-0.5", follow && "cursor-pointer")}
             onClick={follow}
           >
-            <img
+            <Image
               src={getAvatarUrl(displayAvatar)}
               alt={displayName}
+              width={40}
+              height={40}
+              unoptimized
               className="w-10 h-10 rounded-full"
               style={{ backgroundColor: displayColor }}
             />
@@ -471,6 +475,7 @@ export const ChatMessageList = ({
   useEffect(() => {
     if (!jump || loadingHistory) return;
     if (scrollToMessage(jump.id)) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect -- retries the jump each time history loads (external data)
       setJump(null);
     } else if (hasMoreMessages && jump.pages < MAX_JUMP_PAGES) {
       onLoadMore();

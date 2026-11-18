@@ -27,13 +27,6 @@ function useTicker(callback: any, paused: boolean) {
   }, [callback, paused]);
 }
 
-// A persistent, render-independent value (kept in a ref, created lazily once).
-function useInstance<T>(create: () => T): T {
-  const ref = useRef<T | null>(null);
-  if (ref.current === null) ref.current = create();
-  return ref.current;
-}
-
 // Velocity-driven squeeze amount for the free-roaming blob.
 function getScale(diffX: number, diffY: number) {
   const distance = Math.sqrt(Math.pow(diffX, 2) + Math.pow(diffY, 2));
@@ -108,12 +101,12 @@ function ElasticCursor() {
   const isHiddenRef = useRef(false);
 
   // Spring used for the free-roam blob, plus the derived velocity.
-  const pos = useInstance(() => ({ x: 0, y: 0 }));
-  const vel = useInstance(() => ({ x: 0, y: 0 }));
+  const pos = useRef({ x: 0, y: 0 });
+  const vel = useRef({ x: 0, y: 0 });
   // Raw pointer (no smoothing) for the precise dot.
-  const pointer = useInstance(() => ({ x: 0, y: 0 }));
+  const pointer = useRef({ x: 0, y: 0 });
   // Current rendered blob geometry, lerped toward its target every frame.
-  const jelly = useInstance(() => ({
+  const jelly = useRef({
     x: 0,
     y: 0,
     w: CURSOR_DIAMETER,
@@ -121,14 +114,14 @@ function ElasticCursor() {
     r: CURSOR_DIAMETER / 2,
     sx: 1,
     sy: 1,
-  }));
-  const active = useInstance<ActiveTarget>(() => ({
+  });
+  const active = useRef<ActiveTarget>({
     el: null,
     base: null,
     offX: 0,
     offY: 0,
-  }));
-  const set = useInstance<Setters>(() => ({}));
+  });
+  const set = useRef<Setters>({});
 
   // Bind GSAP quick setters to the live nodes. Re-runs on remount
   // (isMobile/isBlogPost toggle `return null`, swapping in fresh DOM nodes);
@@ -137,34 +130,42 @@ function ElasticCursor() {
     const jellyEl = jellyRef.current;
     const dotEl = dotRef.current;
     if (!jellyEl || !dotEl) return;
+    const s = set.current;
     // Center both on their coordinate via gsap transforms so the per-frame
     // x/y setters don't clobber a CSS translate.
     gsap.set(jellyEl, { xPercent: -50, yPercent: -50 });
     gsap.set(dotEl, { xPercent: -50, yPercent: -50 });
-    set.x = gsap.quickSetter(jellyEl, "x", "px");
-    set.y = gsap.quickSetter(jellyEl, "y", "px");
-    set.r = gsap.quickSetter(jellyEl, "rotate", "deg");
-    set.sx = gsap.quickSetter(jellyEl, "scaleX");
-    set.sy = gsap.quickSetter(jellyEl, "scaleY");
-    set.width = gsap.quickSetter(jellyEl, "width", "px");
-    set.height = gsap.quickSetter(jellyEl, "height", "px");
-    set.radius = gsap.quickSetter(jellyEl, "borderRadius", "px");
-    set.opacity = gsap.quickSetter(jellyEl, "opacity");
-    set.dotX = gsap.quickSetter(dotEl, "x", "px");
-    set.dotY = gsap.quickSetter(dotEl, "y", "px");
-    set.dotOpacity = gsap.quickSetter(dotEl, "opacity");
+    s.x = gsap.quickSetter(jellyEl, "x", "px");
+    s.y = gsap.quickSetter(jellyEl, "y", "px");
+    s.r = gsap.quickSetter(jellyEl, "rotate", "deg");
+    s.sx = gsap.quickSetter(jellyEl, "scaleX");
+    s.sy = gsap.quickSetter(jellyEl, "scaleY");
+    s.width = gsap.quickSetter(jellyEl, "width", "px");
+    s.height = gsap.quickSetter(jellyEl, "height", "px");
+    s.radius = gsap.quickSetter(jellyEl, "borderRadius", "px");
+    s.opacity = gsap.quickSetter(jellyEl, "opacity");
+    s.dotX = gsap.quickSetter(dotEl, "x", "px");
+    s.dotY = gsap.quickSetter(dotEl, "y", "px");
+    s.dotOpacity = gsap.quickSetter(dotEl, "opacity");
   }, [isMobile, isBlogPost]);
 
   // Single render loop. Reads everything from refs so it stays stable and the
   // ticker isn't re-added on every hover.
   const render = useCallback(() => {
-    if (!set.x) return;
+    const s = set.current;
+    if (!s.x) return;
+
+    const ptr = pointer.current;
+    const p = pos.current;
+    const v = vel.current;
+    const j = jelly.current;
+    const act = active.current;
 
     // Precise dot always tracks the raw pointer.
-    set.dotX(pointer.x);
-    set.dotY(pointer.y);
+    s.dotX(ptr.x);
+    s.dotY(ptr.y);
 
-    const el = active.el;
+    const el = act.el;
     const wrapping = !!el && wrapsTarget;
     const moveTarget = !!el && movesTarget;
     const hidden = isHiddenRef.current;
@@ -172,76 +173,76 @@ function ElasticCursor() {
     // Pull the hovered element toward the pointer (magnetic button), capped to an
     // absolute distance. Driven via gsap so its transform cache stays in sync with
     // the release spring-back — a raw style.transform write makes the spring instant.
-    if (moveTarget && el && active.base) {
-      const b = active.base;
+    if (moveTarget && el && act.base) {
+      const b = act.base;
       const pullX = clamp(
-        (pointer.x - b.cx) * TARGET_PULL,
+        (ptr.x - b.cx) * TARGET_PULL,
         -TARGET_MAX_PULL,
         TARGET_MAX_PULL
       );
       const pullY = clamp(
-        (pointer.y - b.cy) * TARGET_PULL,
+        (ptr.y - b.cy) * TARGET_PULL,
         -TARGET_MAX_PULL,
         TARGET_MAX_PULL
       );
-      active.offX = lerp(active.offX, pullX, TARGET_EASE);
-      active.offY = lerp(active.offY, pullY, TARGET_EASE);
-      gsap.set(el, { x: active.offX, y: active.offY });
+      act.offX = lerp(act.offX, pullX, TARGET_EASE);
+      act.offY = lerp(act.offY, pullY, TARGET_EASE);
+      gsap.set(el, { x: act.offX, y: act.offY });
     }
 
-    if (wrapping && active.base) {
+    if (wrapping && act.base) {
       // Cursor snaps to hug the target (and follows it if it's also moving).
-      const b = active.base;
+      const b = act.base;
       const leadX = clamp(
-        (pointer.x - b.cx) * CURSOR_PARALLAX,
+        (ptr.x - b.cx) * CURSOR_PARALLAX,
         -CURSOR_MAX_LEAD,
         CURSOR_MAX_LEAD
       );
       const leadY = clamp(
-        (pointer.y - b.cy) * CURSOR_PARALLAX,
+        (ptr.y - b.cy) * CURSOR_PARALLAX,
         -CURSOR_MAX_LEAD,
         CURSOR_MAX_LEAD
       );
-      const tx = b.cx + active.offX + leadX;
-      const ty = b.cy + active.offY + leadY;
-      jelly.x = lerp(jelly.x, tx, WRAP_EASE);
-      jelly.y = lerp(jelly.y, ty, WRAP_EASE);
-      jelly.w = lerp(jelly.w, b.width + WRAP_PADDING * 2, WRAP_EASE);
-      jelly.h = lerp(jelly.h, b.height + WRAP_PADDING * 2, WRAP_EASE);
-      jelly.r = lerp(jelly.r, WRAP_RADIUS, WRAP_EASE);
-      jelly.sx = lerp(jelly.sx, 1, 0.3);
-      jelly.sy = lerp(jelly.sy, 1, 0.3);
-      set.x(jelly.x);
-      set.y(jelly.y);
-      set.width(jelly.w);
-      set.height(jelly.h);
-      set.radius(jelly.r);
-      set.sx(jelly.sx);
-      set.sy(jelly.sy);
-      set.r(0);
-      set.opacity(hidden ? 0 : 1);
-      set.dotOpacity(0); // fold the dot away — one unified cursor
+      const tx = b.cx + act.offX + leadX;
+      const ty = b.cy + act.offY + leadY;
+      j.x = lerp(j.x, tx, WRAP_EASE);
+      j.y = lerp(j.y, ty, WRAP_EASE);
+      j.w = lerp(j.w, b.width + WRAP_PADDING * 2, WRAP_EASE);
+      j.h = lerp(j.h, b.height + WRAP_PADDING * 2, WRAP_EASE);
+      j.r = lerp(j.r, WRAP_RADIUS, WRAP_EASE);
+      j.sx = lerp(j.sx, 1, 0.3);
+      j.sy = lerp(j.sy, 1, 0.3);
+      s.x(j.x);
+      s.y(j.y);
+      s.width(j.w);
+      s.height(j.h);
+      s.radius(j.r);
+      s.sx(j.sx);
+      s.sy(j.sy);
+      s.r(0);
+      s.opacity(hidden ? 0 : 1);
+      s.dotOpacity(0); // fold the dot away — one unified cursor
     } else {
       // Free roam: elastic spring position + velocity-driven squish.
-      const rotation = getAngle(vel.x, vel.y);
-      const scale = getScale(vel.x, vel.y);
-      jelly.x = pos.x;
-      jelly.y = pos.y;
-      jelly.w = lerp(jelly.w, CURSOR_DIAMETER + scale * 300, 0.4);
-      jelly.h = lerp(jelly.h, CURSOR_DIAMETER, 0.4);
-      jelly.r = lerp(jelly.r, CURSOR_DIAMETER / 2, 0.4);
-      jelly.sx = 1 + scale;
-      jelly.sy = 1 - scale * 2;
-      set.x(pos.x);
-      set.y(pos.y);
-      set.width(jelly.w);
-      set.height(jelly.h);
-      set.radius(jelly.r);
-      set.r(rotation);
-      set.sx(jelly.sx);
-      set.sy(jelly.sy);
-      set.opacity(hidden ? 0 : 1);
-      set.dotOpacity(hidden ? 0 : 1);
+      const rotation = getAngle(v.x, v.y);
+      const scale = getScale(v.x, v.y);
+      j.x = p.x;
+      j.y = p.y;
+      j.w = lerp(j.w, CURSOR_DIAMETER + scale * 300, 0.4);
+      j.h = lerp(j.h, CURSOR_DIAMETER, 0.4);
+      j.r = lerp(j.r, CURSOR_DIAMETER / 2, 0.4);
+      j.sx = 1 + scale;
+      j.sy = 1 - scale * 2;
+      s.x(p.x);
+      s.y(p.y);
+      s.width(j.w);
+      s.height(j.h);
+      s.radius(j.r);
+      s.r(rotation);
+      s.sx(j.sx);
+      s.sy(j.sy);
+      s.opacity(hidden ? 0 : 1);
+      s.dotOpacity(hidden ? 0 : 1);
     }
   }, []);
 
@@ -249,20 +250,20 @@ function ElasticCursor() {
   useEffect(() => {
     if (isMobile || isBlogPost) return;
     const onMove = (e: MouseEvent) => {
-      pointer.x = e.clientX;
-      pointer.y = e.clientY;
+      pointer.current.x = e.clientX;
+      pointer.current.y = e.clientY;
       if (!cursorMovedRef.current) {
         cursorMovedRef.current = true;
         setCursorMoved(true);
       }
-      gsap.to(pos, {
+      gsap.to(pos.current, {
         x: e.clientX,
         y: e.clientY,
         duration: 1.5,
         ease: "elastic.out(1, 0.5)",
         onUpdate: () => {
-          vel.x = (e.clientX - pos.x) * 1.2;
-          vel.y = (e.clientY - pos.y) * 1.2;
+          vel.current.x = (e.clientX - pos.current.x) * 1.2;
+          vel.current.y = (e.clientY - pos.current.y) * 1.2;
         },
       });
 
@@ -280,20 +281,23 @@ function ElasticCursor() {
   // instead of re-scanning on every mousemove.
   useEffect(() => {
     if (isMobile || isBlogPost) return;
+    const act = active.current;
 
     const acquire = (el: HTMLElement) => {
       gsap.killTweensOf(el);
-      active.el = el;
-      active.base = measure(el);
-      active.offX = 0;
-      active.offY = 0;
-      jelly.x = pos.x; // morph begins from the current cursor position
-      jelly.y = pos.y;
+      const act = active.current;
+      act.el = el;
+      act.base = measure(el);
+      act.offX = 0;
+      act.offY = 0;
+      jelly.current.x = pos.current.x; // morph begins from the current cursor position
+      jelly.current.y = pos.current.y;
       if (movesTarget) el.style.willChange = "transform";
     };
 
     const release = () => {
-      const el = active.el;
+      const act = active.current;
+      const el = act.el;
       if (el && movesTarget) {
         gsap.to(el, {
           x: 0,
@@ -306,10 +310,10 @@ function ElasticCursor() {
           },
         });
       }
-      active.el = null;
-      active.base = null;
-      active.offX = 0;
-      active.offY = 0;
+      act.el = null;
+      act.base = null;
+      act.offX = 0;
+      act.offY = 0;
     };
 
     const onOver = (e: Event) => {
@@ -317,28 +321,29 @@ function ElasticCursor() {
       // Opt-out zones (e.g. the chat widget) disable the whole effect, not
       // just the cursor visuals — release any held target and don't acquire.
       if (target?.closest?.('[data-no-custom-cursor="true"]')) {
-        if (active.el) release();
+        if (active.current.el) release();
         return;
       }
       const t = target?.closest?.(".cursor-can-hover") as HTMLElement | null;
-      if (t === active.el) return;
-      if (active.el) release();
+      if (t === active.current.el) return;
+      if (active.current.el) release();
       if (t) acquire(t);
     };
     const onLeave = () => {
-      if (active.el) release();
+      if (active.current.el) release();
     };
     // Keep the resting bounds correct under scroll (subtract live offset so a
     // translated target doesn't feed back into its own measurement).
     const onScroll = () => {
-      if (!active.el || !active.base) return;
-      const r = active.el.getBoundingClientRect();
-      active.base.left = r.left - active.offX;
-      active.base.top = r.top - active.offY;
-      active.base.width = r.width;
-      active.base.height = r.height;
-      active.base.cx = active.base.left + r.width / 2;
-      active.base.cy = active.base.top + r.height / 2;
+      const act = active.current;
+      if (!act.el || !act.base) return;
+      const r = act.el.getBoundingClientRect();
+      act.base.left = r.left - act.offX;
+      act.base.top = r.top - act.offY;
+      act.base.width = r.width;
+      act.base.height = r.height;
+      act.base.cx = act.base.left + r.width / 2;
+      act.base.cy = act.base.top + r.height / 2;
     };
 
     document.addEventListener("pointerover", onOver);
@@ -350,7 +355,7 @@ function ElasticCursor() {
       document.removeEventListener("mouseleave", onLeave);
       window.removeEventListener("blur", onLeave);
       window.removeEventListener("scroll", onScroll);
-      if (active.el) release();
+      if (act.el) release();
     };
   }, [isMobile, isBlogPost]);
 

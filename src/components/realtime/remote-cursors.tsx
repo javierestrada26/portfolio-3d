@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import { SocketContext } from "@/contexts/socketio";
 import { useCursorPositions } from "@/contexts/cursor-positions";
 import { useMouse } from "@/hooks/use-mouse";
@@ -165,9 +166,12 @@ const RemoteCursors = () => {
               className="pointer-events-auto absolute bottom-4 left-1/2 flex items-center gap-2 pl-2 pr-3 py-1.5 rounded-full shadow-lg text-white text-sm font-medium group"
               style={{ backgroundColor: followColor }}
             >
-              <img
+              <Image
                 src={getAvatarUrl(followedUser.avatar)}
                 alt=""
+                width={24}
+                height={24}
+                unoptimized
                 className="w-6 h-6 rounded-full ring-2 ring-white/40 flex-shrink-0"
               />
               <span className="whitespace-nowrap">
@@ -212,6 +216,7 @@ const Cursor = ({
   const cursorUserId = users.find(u => u.socketId === socketId)?.id;
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- briefly reveals the label on every move/message; the timer below hides it again
     setShowText(true);
     const fadeOutTimeout = setTimeout(() => {
       setShowText(false);
@@ -231,6 +236,7 @@ const Cursor = ({
       const textSlice =
         lastMsgContent.slice(0, 30) + (lastMsgContent.length > 30 ? "..." : "");
       const timeToRead = Math.max(4000, Math.max(textSlice.length * 100, 1000));
+      // eslint-disable-next-line react-hooks/set-state-in-effect -- reacts to an incoming socket message (external event)
       setMsgText(textSlice);
       if (messageTimeout.current) clearTimeout(messageTimeout.current);
       messageTimeout.current = setTimeout(() => {
@@ -316,9 +322,12 @@ const Cursor = ({
         }}
       >
         {/* Avatar image */}
-        <img
+        <Image
           src={getAvatarUrl(avatar)}
           alt=""
+          width={40}
+          height={40}
+          unoptimized
           className="w-10 h-10 rounded-full flex-shrink-0"
         />
 

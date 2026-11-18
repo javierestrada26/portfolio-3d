@@ -61,9 +61,11 @@ function Preloader({ children, disabled = false }: PreloaderProps) {
     setIsLoading(false);
   }, []);
 
+  const bypassed = perfReady && disable3D;
+  const showLoader = isLoading && !bypassed;
   useEffect(() => {
-    if (perfReady && disable3D) bypassLoading();
-  }, [perfReady, disable3D, bypassLoading]);
+    if (bypassed) loadingTween.current?.progress(0.99).kill();
+  }, [bypassed]);
   const loadingPercentRef = useRef<{ value: number }>({ value: 0 });
   useEffect(() => {
     if (skip) return;
@@ -85,9 +87,13 @@ function Preloader({ children, disabled = false }: PreloaderProps) {
 
   return (
     <preloaderContext.Provider
-      value={{ isLoading, bypassLoading, loadingPercent }}
+      value={{
+        isLoading: showLoader,
+        bypassLoading,
+        loadingPercent: bypassed ? 100 : loadingPercent,
+      }}
     >
-      <AnimatePresence mode="wait">{isLoading && <Loader />}</AnimatePresence>
+      <AnimatePresence mode="wait">{showLoader && <Loader />}</AnimatePresence>
       {children}
     </preloaderContext.Provider>
   );

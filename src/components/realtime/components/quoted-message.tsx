@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import { cn } from "@/lib/utils";
 import { THEME } from "../constants";
 import { getAvatarUrl } from "@/lib/avatar";
@@ -23,9 +24,12 @@ export const QuotedMessage = ({ username, content, color, avatar, onClickQuote }
       )}
     >
       {avatar && (
-        <img
+        <Image
           src={getAvatarUrl(avatar)}
           alt=""
+          width={16}
+          height={16}
+          unoptimized
           className="w-4 h-4 rounded-full shrink-0"
           style={{ backgroundColor: color || '#60a5fa' }}
         />

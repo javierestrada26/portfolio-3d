@@ -18,16 +18,20 @@ export const AdminPasswordDialog = ({ isOpen, onClose, onSubmit }: AdminPassword
 
   useEffect(() => {
     if (isOpen) {
-      setPassword("");
       setTimeout(() => inputRef.current?.focus(), 50);
     }
   }, [isOpen]);
+
+  const handleClose = () => {
+    setPassword("");
+    onClose();
+  };
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!password.trim()) return;
     onSubmit(password.trim());
-    onClose();
+    handleClose();
   };
 
   if (!isOpen) return null;
@@ -38,7 +42,7 @@ export const AdminPasswordDialog = ({ isOpen, onClose, onSubmit }: AdminPassword
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       className="fixed inset-0 bg-black/40 backdrop-blur-sm z-[100] flex items-center justify-center p-4"
-      onClick={onClose}
+      onClick={handleClose}
     >
       <motion.div
         initial={{ opacity: 0, scale: 0.95, y: 10 }}
@@ -76,7 +80,7 @@ export const AdminPasswordDialog = ({ isOpen, onClose, onSubmit }: AdminPassword
               type="button"
               variant="ghost"
               size="sm"
-              onClick={onClose}
+              onClick={handleClose}
               className={cn(THEME.text.secondary)}
             >
               Cancel

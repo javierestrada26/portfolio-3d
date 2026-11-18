@@ -104,7 +104,7 @@ export default function RadialMenu() {
     if (reducedMotion) confetti.reset();
   }, [reducedMotion]);
 
-  const triggerConfetti = (x: number, y: number, item: MenuItem, int: number) => {
+  const triggerConfetti = useCallback((x: number, y: number, item: MenuItem, int: number) => {
     playConfettiSound(int);
     fireConfetti(x, y, item.emoji, int);
     const cx = x - window.scrollX;
@@ -117,7 +117,7 @@ export default function RadialMenu() {
       cooldownUntilRef.current = Date.now() + cooldownDuration;
       cooldownEndRef.current = Date.now() + cooldownDuration;
     }
-  };
+  }, [playConfettiSound, fireConfetti, spawnShockwave]);
 
   // Listen for remote confetti
   useEffect(() => {
@@ -143,7 +143,7 @@ export default function RadialMenu() {
     return () => {
       socket.off("confetti-receive", handleConfettiReceive);
     };
-  }, [socket, fireConfetti, spawnShockwave]);
+  }, [socket, fireConfetti, spawnShockwave, playConfettiSound]);
 
   const handleMouseDown = useCallback((e: MouseEvent) => {
     if (e.button === 2) {
@@ -242,7 +242,7 @@ export default function RadialMenu() {
       intensityRef.current = 0;
     } else {
     }
-  }, [triggerConfetti, stopChargeTone]);
+  }, [triggerConfetti, stopChargeTone, socket]);
 
   const handleContextMenu = useCallback((e: MouseEvent) => {
     if (suppressMenuRef.current) {

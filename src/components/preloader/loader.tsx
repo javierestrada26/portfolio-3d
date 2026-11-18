@@ -1,6 +1,6 @@
 "use client";
 import styles from "./style.module.scss";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useSyncExternalStore } from "react";
 import { motion } from "motion/react";
 import { opacity, slideUp } from "./anim";
 import { usePreloader } from ".";
@@ -18,14 +18,25 @@ const steps = [
   "100%",
 ];
 
+const subscribeToResize = (onChange: () => void) => {
+  window.addEventListener("resize", onChange);
+  return () => window.removeEventListener("resize", onChange);
+};
+
 export default function Index() {
   const { isLoading, loadingPercent } = usePreloader();
   const [index, setIndex] = useState(0);
-  const [dimension, setDimension] = useState({ width: 0, height: 0 });
-
-  useEffect(() => {
-    setDimension({ width: window.innerWidth, height: window.innerHeight });
-  }, []);
+  const width = useSyncExternalStore(
+    subscribeToResize,
+    () => window.innerWidth,
+    () => 0
+  );
+  const height = useSyncExternalStore(
+    subscribeToResize,
+    () => window.innerHeight,
+    () => 0
+  );
+  const dimension = { width, height };
 
   useEffect(() => {
     if (index == steps.length - 1) return;

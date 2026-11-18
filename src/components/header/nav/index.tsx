@@ -46,6 +46,7 @@ const Index: React.FC<IndexProps> = ({ setIsActive }) => {
         </div>
         <Image
           src={links[selectedLink.index].thumbnail}
+          alt={links[selectedLink.index].title}
           isActive={selectedLink.isActive}
         />
       </div>

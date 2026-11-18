@@ -40,11 +40,10 @@ const HeroSection = () => {
                       "cursor-default sm:text-xl md:text-xl whitespace-nowrap bg-clip-text "
                     )}
                   >
-                    Hi, I am
+                    Hola, Soy
                     <br className="md:hidden" />
                   </p>
                 </BlurIn>
-
                 <BlurIn delay={1}>
                   <Tooltip delayDuration={300}>
                     <TooltipTrigger asChild>
@@ -76,7 +75,7 @@ const HeroSection = () => {
                       "cursor-default sm:text-xl md:text-xl whitespace-nowrap bg-clip-text "
                     )}
                   >
-                    A Full Stack Web Developer
+                    Backend Developer && DevOps
                   </p>
                 </BlurIn>
               </div>

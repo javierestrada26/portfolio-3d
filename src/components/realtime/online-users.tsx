@@ -1,5 +1,6 @@
 "use client";
 import React, { useContext, useState, useEffect, useRef, useCallback } from "react";
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import {
   Popover,
@@ -265,9 +266,12 @@ const OnlineUsers = () => {
                   aria-label="Edit profile"
                 >
                   <div className="relative w-8 h-8">
-                    <img
+                    <Image
                       src={getAvatarUrl(currentUser.avatar)}
                       alt=""
+                      width={32}
+                      height={32}
+                      unoptimized
                       className="w-full h-full rounded-full ring-1 ring-black/10 dark:ring-white/10"
                       style={{ backgroundColor: currentUser.color || '#60a5fa' }}
                     />

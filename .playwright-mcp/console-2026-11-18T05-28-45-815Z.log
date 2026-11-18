@@ -1,0 +1,172 @@
+[    7779ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[    7901ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[    8013ms] [ERROR] Encountered a script tag while rendering React component. Scripts inside React components are never executed when rendering on the client. Consider using template tag instead (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template). @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:3767
+[    8127ms] Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <TooltipProvider>
+      <TooltipProviderProvider scope={undefined} isOpenDelayedRef={{current:true}} delayDuration={700} ...>
+        <SiteFrame githubStars={{...}}>
+          <Header githubStars={{...}}>
+            <motion.header className="style-modu..." style={{...}} initial={{y:-80}} animate={{y:0}} ...>
+              <header className="style-modu..." style={{...}} ref={function useMotionRef.useCallback}>
+                <div className="style-modu...">
+                  <LinkComponent href="/" className="flex items...">
+                    <a className="flex items..." ref={function} onClick={function onClick} ...>
+                      <_c variant="link" className="text-md">
+                        <button className="inline-fle..." ref={null}>
++                         Naresh Khatri
+-                         Javier Estrada
+                  ...
+                ...
+          ...
+
+    at throwOnHydrationMismatch (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:3318:56)
+    at completeWork (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:7021:36)
+    at runWithFiberInDEV (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:965:74)
+    at completeUnitOfWork (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:9622:23)
+    at performUnitOfWork (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:9557:28)
+    at workLoopConcurrentByScheduler (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:9551:58)
+    at renderRootConcurrent (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:9534:71)
+    at performWorkOnRoot (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:9061:150)
+    at performWorkOnRootViaSchedulerTask (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:10255:9)
+    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_0b9sk_x._.js:2647:64)
+[    8587ms] [LOG] {} @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[    8588ms] [LOG] {} @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[    8592ms] [TABLE] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[    8632ms] [LOG] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[    8634ms] [LOG] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[    8636ms] [TABLE] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[    8678ms] [LOG] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[    8680ms] [LOG] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[    8776ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/favicon.ico:1
+[    8897ms] [LOG] %cWhoa, look at you! 🕵️‍♂️
+You seem to have discovered the secret console! 🔍
+Want to see some magic? ✨
+Just type %cmy first name%c and hit enter! 🎩🐇 color: #FFD700; font-size: 16px; font-weight: bold; background-color: black; padding: 10px; border-radius: 10px; margin-top:20px color: #00FF00; font-size: 16px; font-weight: bold; background-color: black; padding: 10px; border-radius: 10px; margin-top:20px color: #FFD700; font-size: 16px; font-weight: bold; background-color: black; padding: 10px; border-radius: 10px; @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[    8957ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/favicon.ico?favicon.0nequxoswxsl2.ico:1
+[    8957ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/__nextjs_original-stack-frames:1
+[    9208ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/__nextjs_original-stack-frames:1
+[    9209ms] [ERROR] WebSocket is already in CLOSING or CLOSED state. @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:3285
+[    9300ms] [WARNING] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[    9705ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/fonts/helvetiker_regular.typeface.json:1
+[    9730ms] [ERROR] WebSocket is already in CLOSING or CLOSED state. @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:3285
+[    9802ms] TypeError: Failed to fetch
+    at loadFontData (http://localhost:3000/_next/static/chunks/node_modules__pnpm_0u2lfeo._.js:1325:52)
+    at loader (http://localhost:3000/_next/static/chunks/node_modules__pnpm_0u2lfeo._.js:1334:24)
+    at query (http://localhost:3000/_next/static/chunks/node_modules__pnpm_0u2lfeo._.js:368:40)
+    at suspend (http://localhost:3000/_next/static/chunks/node_modules__pnpm_0u2lfeo._.js:381:37)
+    at useFont (http://localhost:3000/_next/static/chunks/node_modules__pnpm_0u2lfeo._.js:1338:251)
+    at http://localhost:3000/_next/static/chunks/node_modules__pnpm_0u2lfeo._.js:1392:301
+    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/11q-_%40react-three_fiber_dist_0lwmhny._.js:14495:32)
+    at ap (http://localhost:3000/_next/static/chunks/11q-_%40react-three_fiber_dist_0lwmhny._.js:9936:25)
+    at zt (http://localhost:3000/_next/static/chunks/11q-_%40react-three_fiber_dist_0lwmhny._.js:10941:35)
+    at Su (http://localhost:3000/_next/static/chunks/11q-_%40react-three_fiber_dist_0lwmhny._.js:11474:32)
+    at B (http://localhost:3000/_next/static/chunks/11q-_%40react-three_fiber_dist_0lwmhny._.js:8732:70)
+    at rg (http://localhost:3000/_next/static/chunks/11q-_%40react-three_fiber_dist_0lwmhny._.js:13649:50)
+    at ng (http://localhost:3000/_next/static/chunks/11q-_%40react-three_fiber_dist_0lwmhny._.js:13566:36)
+    at Qp (http://localhost:3000/_next/static/chunks/11q-_%40react-three_fiber_dist_0lwmhny._.js:13557:21)
+    at Zm (http://localhost:3000/_next/static/chunks/11q-_%40react-three_fiber_dist_0lwmhny._.js:13310:104)
+    at _c (http://localhost:3000/_next/static/chunks/11q-_%40react-three_fiber_dist_0lwmhny._.js:9146:35)
+    at Ur (http://localhost:3000/_next/static/chunks/11q-_%40react-three_fiber_dist_0lwmhny._.js:9090:165)
+    at Object.Cd [as flushSyncWork] (http://localhost:3000/_next/static/chunks/11q-_%40react-three_fiber_dist_0lwmhny._.js:13422:51)
+    at commit (http://localhost:3000/_next/static/chunks/11q-_%40react-three_fiber_dist_0lwmhny._.js:16313:28)
+    at Object.render (http://localhost:3000/_next/static/chunks/11q-_%40react-three_fiber_dist_0lwmhny._.js:16315:13)
+    at CanvasImpl.useIsomorphicLayoutEffect (http://localhost:3000/_next/static/chunks/11q-_%40react-three_fiber_dist_0lwmhny._.js:16882:34)
+    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:15087:22)
+    at runWithFiberInDEV (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:965:74)
+    at commitHookEffectListMount (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:7255:167)
+    at commitHookLayoutEffects (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:7243:60)
+    at commitLayoutEffectOnFiber (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:7851:30)
+    at recursivelyTraverseLayoutEffects (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8530:105)
+    at commitLayoutEffectOnFiber (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:7948:17)
+    at recursivelyTraverseLayoutEffects (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8530:105)
+    at commitLayoutEffectOnFiber (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:7854:17)
+    at recursivelyTraverseLayoutEffects (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8530:105)
+    at commitLayoutEffectOnFiber (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:7850:17)
+    at recursivelyTraverseLayoutEffects (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8530:105)
+    at commitLayoutEffectOnFiber (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:7850:17)
+    at recursivelyTraverseLayoutEffects (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8530:105)
+    at commitLayoutEffectOnFiber (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:7890:17)
+    at recursivelyTraverseLayoutEffects (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8530:105)
+    at commitLayoutEffectOnFiber (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:7850:17)
+    at recursivelyTraverseLayoutEffects (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8530:105)
+    at commitLayoutEffectOnFiber (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:7850:17)
+    at recursivelyTraverseLayoutEffects (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8530:105)
+    at commitLayoutEffectOnFiber (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:7850:17)
+    at recursivelyTraverseLayoutEffects (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8530:105)
+    at commitLayoutEffectOnFiber (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:7935:470)
+    at recursivelyTraverseLayoutEffects (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8530:105)
+    at commitLayoutEffectOnFiber (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:7924:17)
+    at recursivelyTraverseLayoutEffects (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8530:105)
+    at commitLayoutEffectOnFiber (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:7850:17)
+    at recursivelyTraverseLayoutEffects (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8530:105)
+    at commitLayoutEffectOnFiber (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:7854:17)
+[    9823ms] [ERROR] %o
+
+%s TypeError: Failed to fetch
+    at loadFontData (http://localhost:3000/_next/static/chunks/node_modules__pnpm_0u2lfeo._.js:1325:52)
+    at loader (http://localhost:3000/_next/static/chunks/node_modules__pnpm_0u2lfeo._.js:1334:24)
+    at query (http://localhost:3000/_next/static/chunks/node_modules__pnpm_0u2lfeo._.js:368:40)
+    at suspend (http://localhost:3000/_next/static/chunks/node_modules__pnpm_0u2lfeo._.js:381:37)
+    at useFont (http://localhost:3000/_next/static/chunks/node_modules__pnpm_0u2lfeo._.js:1338:251)
+    at http://localhost:3000/_next/static/chunks/node_modules__pnpm_0u2lfeo._.js:1392:301
+    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/11q-_%40react-three_fiber_dist_0lwmhny._.js:14495:32)
+    at ap (http://localhost:3000/_next/static/chunks/11q-_%40react-three_fiber_dist_0lwmhny._.js:9936:25)
+    at zt (http://localhost:3000/_next/static/chunks/11q-_%40react-three_fiber_dist_0lwmhny._.js:10941:35)
+    at Su (http://localhost:3000/_next/static/chunks/11q-_%40react-three_fiber_dist_0lwmhny._.js:11474:32)
+    at B (http://localhost:3000/_next/static/chunks/11q-_%40react-three_fiber_dist_0lwmhny._.js:8732:70)
+    at rg (http://localhost:3000/_next/static/chunks/11q-_%40react-three_fiber_dist_0lwmhny._.js:13649:50)
+    at ng (http://localhost:3000/_next/static/chunks/11q-_%40react-three_fiber_dist_0lwmhny._.js:13566:36)
+    at Qp (http://localhost:3000/_next/static/chunks/11q-_%40react-three_fiber_dist_0lwmhny._.js:13557:21)
+    at Zm (http://localhost:3000/_next/static/chunks/11q-_%40react-three_fiber_dist_0lwmhny._.js:13310:104)
+    at _c (http://localhost:3000/_next/static/chunks/11q-_%40react-three_fiber_dist_0lwmhny._.js:9146:35)
+    at Ur (http://localhost:3000/_next/static/chunks/11q-_%40react-three_fiber_dist_0lwmhny._.js:9090:165)
+    at Object.Cd [as flushSyncWork] (http://localhost:3000/_next/static/chunks/11q-_%40react-three_fiber_dist_0lwmhny._.js:13422:51)
+    at commit (http://localhost:3000/_next/static/chunks/11q-_%40react-three_fiber_dist_0lwmhny._.js:16313:28)
+    at Object.render (http://localhost:3000/_next/static/chunks/11q-_%40react-three_fiber_dist_0lwmhny._.js:16315:13)
+    at CanvasImpl.useIsomorphicLayoutEffect (http://localhost:3000/_next/static/chunks/11q-_%40react-three_fiber_dist_0lwmhny._.js:16882:34)
+    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:15087:22)
+    at runWithFiberInDEV (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:965:74)
+    at commitHookEffectListMount (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:7255:167)
+    at commitHookLayoutEffects (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:7243:60)
+    at commitLayoutEffectOnFiber (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:7851:30)
+    at recursivelyTraverseLayoutEffects (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8530:105)
+    at commitLayoutEffectOnFiber (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:7948:17)
+    at recursivelyTraverseLayoutEffects (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8530:105)
+    at commitLayoutEffectOnFiber (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:7854:17)
+    at recursivelyTraverseLayoutEffects (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8530:105)
+    at commitLayoutEffectOnFiber (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:7850:17)
+    at recursivelyTraverseLayoutEffects (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8530:105)
+    at commitLayoutEffectOnFiber (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:7850:17)
+    at recursivelyTraverseLayoutEffects (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8530:105)
+    at commitLayoutEffectOnFiber (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:7890:17)
+    at recursivelyTraverseLayoutEffects (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8530:105)
+    at commitLayoutEffectOnFiber (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:7850:17)
+    at recursivelyTraverseLayoutEffects (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8530:105)
+    at commitLayoutEffectOnFiber (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:7850:17)
+    at recursivelyTraverseLayoutEffects (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8530:105)
+    at commitLayoutEffectOnFiber (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:7850:17)
+    at recursivelyTraverseLayoutEffects (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8530:105)
+    at commitLayoutEffectOnFiber (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:7935:470)
+    at recursivelyTraverseLayoutEffects (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8530:105)
+    at commitLayoutEffectOnFiber (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:7924:17)
+    at recursivelyTraverseLayoutEffects (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8530:105)
+    at commitLayoutEffectOnFiber (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:7850:17)
+    at recursivelyTraverseLayoutEffects (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8530:105)
+    at commitLayoutEffectOnFiber (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:7854:17) The above error occurred in the <CanvasImpl> component. It was handled by the <SceneErrorBoundary> error boundary. @ http://localhost:3000/_next/static/chunks/036m_next_dist_client_09htrd_._.js:1999
+[    9855ms] [ERROR] WebSocket is already in CLOSING or CLOSED state. @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:3285
+[    9871ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/__nextjs_original-stack-frames:1
+[    9875ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr?id=Qj9dTZ8YDQ1f-dljvLovK' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/036m_next_dist_client_09htrd_._.js:13340
+[   10889ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr?id=Qj9dTZ8YDQ1f-dljvLovK' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/036m_next_dist_client_09htrd_._.js:13340
+[   11892ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr?id=Qj9dTZ8YDQ1f-dljvLovK' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:3000/_next/static/chunks/036m_next_dist_client_09htrd_._.js:13340

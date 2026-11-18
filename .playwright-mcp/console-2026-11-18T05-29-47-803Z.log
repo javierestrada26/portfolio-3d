@@ -1,0 +1,57 @@
+[     893ms] [WARNING] THREE.WebGLShadowMap: PCFSoftShadowMap has been deprecated. Using PCFShadowMap instead. @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[    5268ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[    5287ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[    5371ms] [ERROR] Encountered a script tag while rendering React component. Scripts inside React components are never executed when rendering on the client. Consider using template tag instead (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template). @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:3767
+[    5452ms] Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <TooltipProvider>
+      <TooltipProviderProvider scope={undefined} isOpenDelayedRef={{current:true}} delayDuration={700} ...>
+        <SiteFrame githubStars={{...}}>
+          <Header githubStars={{...}}>
+            <motion.header className="style-modu..." style={{...}} initial={{y:-80}} animate={{y:0}} ...>
+              <header className="style-modu..." style={{...}} ref={function useMotionRef.useCallback}>
+                <div className="style-modu...">
+                  <LinkComponent href="/" className="flex items...">
+                    <a className="flex items..." ref={function} onClick={function onClick} ...>
+                      <_c variant="link" className="text-md">
+                        <button className="inline-fle..." ref={null}>
++                         Naresh Khatri
+-                         Javier Estrada
+                  ...
+                ...
+          ...
+
+    at throwOnHydrationMismatch (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:3318:56)
+    at completeWork (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:7021:36)
+    at runWithFiberInDEV (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:965:74)
+    at completeUnitOfWork (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:9622:23)
+    at performUnitOfWork (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:9557:28)
+    at workLoopConcurrentByScheduler (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:9551:58)
+    at renderRootConcurrent (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:9534:71)
+    at performWorkOnRoot (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:9061:150)
+    at performWorkOnRootViaSchedulerTask (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:10255:9)
+    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_0b9sk_x._.js:2647:64)
+[    5634ms] [LOG] {} @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[    5636ms] [LOG] {} @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[    5638ms] [TABLE] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[    5677ms] [LOG] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[    5679ms] [LOG] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[    5681ms] [TABLE] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[    5715ms] [LOG] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[    5717ms] [LOG] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[    5855ms] [LOG] %cWhoa, look at you! 🕵️‍♂️
+You seem to have discovered the secret console! 🔍
+Want to see some magic? ✨
+Just type %cmy first name%c and hit enter! 🎩🐇 color: #FFD700; font-size: 16px; font-weight: bold; background-color: black; padding: 10px; border-radius: 10px; margin-top:20px color: #00FF00; font-size: 16px; font-weight: bold; background-color: black; padding: 10px; border-radius: 10px; margin-top:20px color: #FFD700; font-size: 16px; font-weight: bold; background-color: black; padding: 10px; border-radius: 10px; @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[    6228ms] [WARNING] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926

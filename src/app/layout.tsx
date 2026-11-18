@@ -71,10 +71,16 @@ export default function RootLayout({
         spaceGroteskSans.variable,
         unbounded.variable,
         "font-sans",
+        "relative",
       ].join(" ")}
       suppressHydrationWarning
     >
-      <head>
+      <body>
+        <Providers>
+          <SiteFrame githubStars={<GitHubStars className="mr-4" />}>
+            {children}
+          </SiteFrame>
+        </Providers>
         {process.env.UMAMI_SITE_ID && (
           <Script
             defer
@@ -82,13 +88,6 @@ export default function RootLayout({
             data-website-id={process.env.UMAMI_SITE_ID}
           />
         )}
-      </head>
-      <body>
-        <Providers>
-          <SiteFrame githubStars={<GitHubStars className="mr-4" />}>
-            {children}
-          </SiteFrame>
-        </Providers>
         {process.env.NEXT_PUBLIC_GA_ID && (
           <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID} />
         )}

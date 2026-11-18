@@ -1,0 +1,110 @@
+[     180ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[     853ms] [LOG] [Fast Refresh] done in 773ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[    2750ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[    2772ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[    2799ms] [ERROR] Encountered a script tag while rendering React component. Scripts inside React components are never executed when rendering on the client. Consider using template tag instead (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template). @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:3767
+[    2833ms] [ERROR] In HTML, whitespace text nodes cannot be a child of <%s>. Make sure you don't have any extra whitespace between tags on each line of your source code.
+This will cause a hydration error.%s head 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/blogs/ach..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" className="space_grot..." suppressHydrationWarning={true}>
+                          <head>
+>                           
+                          ...
+                  ...
+ @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:3767
+[    2832ms] Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/blogs/ach..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" className="space_grot..." suppressHydrationWarning={true}>
+                          <head>
++                           
+-                           {"Achieving Milestone: Adding Blogs Section | Portfolio@font-face{font-family:'__nextjs-..."}
+                          ...
+                  ...
+
+    at throwOnHydrationMismatch (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:3318:56)
+    at prepareToHydrateHostInstance (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:3372:23)
+    at completeWork (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:6905:57)
+    at runWithFiberInDEV (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:965:74)
+    at completeUnitOfWork (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:9622:23)
+    at performUnitOfWork (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:9557:28)
+    at workLoopConcurrentByScheduler (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:9551:58)
+    at renderRootConcurrent (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:9534:71)
+    at performWorkOnRoot (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:9061:150)
+    at performWorkOnRootViaSchedulerTask (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:10255:9)
+    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_0b9sk_x._.js:2647:64)
+[    2872ms] [LOG] {} @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[    2873ms] [LOG] {} @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[    2874ms] [TABLE] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[    2903ms] [LOG] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[    2904ms] [LOG] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[    2905ms] [TABLE] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[    2931ms] [LOG] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[    2933ms] [LOG] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[    2954ms] NotFoundError: Failed to execute 'removeChild' on 'Node': The node to be removed is not a child of this node.
+    at http://localhost:3000/_next/static/chunks/node_modules__pnpm_0j4va51._.js:5955:27
+[    2972ms] [LOG] %cWhoa, look at you! 🕵️‍♂️
+You seem to have discovered the secret console! 🔍
+Want to see some magic? ✨
+Just type %cmy first name%c and hit enter! 🎩🐇 color: #FFD700; font-size: 16px; font-weight: bold; background-color: black; padding: 10px; border-radius: 10px; margin-top:20px color: #00FF00; font-size: 16px; font-weight: bold; background-color: black; padding: 10px; border-radius: 10px; margin-top:20px color: #FFD700; font-size: 16px; font-weight: bold; background-color: black; padding: 10px; border-radius: 10px; @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926

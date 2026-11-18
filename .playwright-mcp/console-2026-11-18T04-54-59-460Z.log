@@ -1,0 +1,768 @@
+[     304ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[     324ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[     734ms] [LOG] {} @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[     737ms] [LOG] {} @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[     739ms] [TABLE] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[     768ms] [LOG] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[     769ms] [LOG] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[     776ms] [TABLE] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[     808ms] [LOG] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[     810ms] [LOG] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[     914ms] [LOG] %cWhoa, look at you! 🕵️‍♂️
+You seem to have discovered the secret console! 🔍
+Want to see some magic? ✨
+Just type %cmy first name%c and hit enter! 🎩🐇 color: #FFD700; font-size: 16px; font-weight: bold; background-color: black; padding: 10px; border-radius: 10px; margin-top:20px color: #00FF00; font-size: 16px; font-weight: bold; background-color: black; padding: 10px; border-radius: 10px; margin-top:20px color: #FFD700; font-size: 16px; font-weight: bold; background-color: black; padding: 10px; border-radius: 10px; @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[    1164ms] [WARNING] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[   16558ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[   17788ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[   17809ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[   18181ms] [LOG] {} @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[   18183ms] [LOG] {} @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[   18184ms] [TABLE] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[   18225ms] [LOG] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[   18227ms] [LOG] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[   18233ms] [TABLE] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[   18270ms] [LOG] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[   18272ms] [LOG] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[   18381ms] [LOG] %cWhoa, look at you! 🕵️‍♂️
+You seem to have discovered the secret console! 🔍
+Want to see some magic? ✨
+Just type %cmy first name%c and hit enter! 🎩🐇 color: #FFD700; font-size: 16px; font-weight: bold; background-color: black; padding: 10px; border-radius: 10px; margin-top:20px color: #00FF00; font-size: 16px; font-weight: bold; background-color: black; padding: 10px; border-radius: 10px; margin-top:20px color: #FFD700; font-size: 16px; font-weight: bold; background-color: black; padding: 10px; border-radius: 10px; @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[   18618ms] [WARNING] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[   32669ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[   33687ms] [LOG] [Fast Refresh] done in 1074ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  249542ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  249621ms] [LOG] [Fast Refresh] done in 139ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  253032ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  253200ms] [LOG] [Fast Refresh] done in 232ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  271353ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  271433ms] [LOG] [Fast Refresh] done in 149ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  282017ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  282065ms] [LOG] [Fast Refresh] done in 117ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  282514ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  282591ms] [LOG] [Fast Refresh] done in 79ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  299635ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  299746ms] [LOG] [Fast Refresh] done in 140ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  300497ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  300560ms] [LOG] [Fast Refresh] done in 122ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  306154ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  306187ms] [LOG] [Fast Refresh] done in 109ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  308216ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  308217ms] [LOG] [Fast Refresh] done in 108ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  309451ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  309518ms] [LOG] [Fast Refresh] done in 132ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  312095ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  312096ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  312198ms] [LOG] [Fast Refresh] done in 99ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  312740ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  312769ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  313165ms] [LOG] {} @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  313167ms] [LOG] {} @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  313169ms] [TABLE] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  313204ms] [LOG] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  313206ms] [LOG] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  313210ms] [TABLE] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  313240ms] [LOG] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  313242ms] [LOG] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  313376ms] [LOG] %cWhoa, look at you! 🕵️‍♂️
+You seem to have discovered the secret console! 🔍
+Want to see some magic? ✨
+Just type %cmy first name%c and hit enter! 🎩🐇 color: #FFD700; font-size: 16px; font-weight: bold; background-color: black; padding: 10px; border-radius: 10px; margin-top:20px color: #00FF00; font-size: 16px; font-weight: bold; background-color: black; padding: 10px; border-radius: 10px; margin-top:20px color: #FFD700; font-size: 16px; font-weight: bold; background-color: black; padding: 10px; border-radius: 10px; @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  313625ms] [WARNING] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  316479ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  316480ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  316555ms] [LOG] [Fast Refresh] done in 74ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  316786ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:1
+[  316799ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  316814ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  316826ms] [ERROR] Encountered a script tag while rendering React component. Scripts inside React components are never executed when rendering on the client. Consider using template tag instead (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template). @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:3767
+[  317076ms] [LOG] {} @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  317078ms] [LOG] {} @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  317080ms] [TABLE] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  317114ms] [LOG] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  317116ms] [LOG] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  317118ms] [TABLE] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  317154ms] [LOG] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  317157ms] [LOG] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  317239ms] [LOG] %cWhoa, look at you! 🕵️‍♂️
+You seem to have discovered the secret console! 🔍
+Want to see some magic? ✨
+Just type %cmy first name%c and hit enter! 🎩🐇 color: #FFD700; font-size: 16px; font-weight: bold; background-color: black; padding: 10px; border-radius: 10px; margin-top:20px color: #00FF00; font-size: 16px; font-weight: bold; background-color: black; padding: 10px; border-radius: 10px; margin-top:20px color: #FFD700; font-size: 16px; font-weight: bold; background-color: black; padding: 10px; border-radius: 10px; @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  317286ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  317287ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  317542ms] [LOG] [Fast Refresh] done in 51ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  317651ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  317883ms] [LOG] [Fast Refresh] done in 340ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  317892ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  317893ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  317959ms] [LOG] [Fast Refresh] done in 3ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  318262ms] [WARNING] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  318970ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  318991ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  319352ms] [LOG] {} @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  319354ms] [LOG] {} @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  319356ms] [TABLE] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  319396ms] [LOG] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  319398ms] [LOG] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  319400ms] [TABLE] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  319433ms] [LOG] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  319434ms] [LOG] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  319554ms] [LOG] %cWhoa, look at you! 🕵️‍♂️
+You seem to have discovered the secret console! 🔍
+Want to see some magic? ✨
+Just type %cmy first name%c and hit enter! 🎩🐇 color: #FFD700; font-size: 16px; font-weight: bold; background-color: black; padding: 10px; border-radius: 10px; margin-top:20px color: #00FF00; font-size: 16px; font-weight: bold; background-color: black; padding: 10px; border-radius: 10px; margin-top:20px color: #FFD700; font-size: 16px; font-weight: bold; background-color: black; padding: 10px; border-radius: 10px; @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  319789ms] [WARNING] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  328358ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  328407ms] [LOG] [Fast Refresh] done in 111ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  329482ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  329532ms] [LOG] [Fast Refresh] done in 99ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  330004ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  330053ms] [LOG] [Fast Refresh] done in 91ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  330654ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  330692ms] [LOG] [Fast Refresh] done in 87ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  331343ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  331394ms] [LOG] [Fast Refresh] done in 110ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  331805ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  331838ms] [LOG] [Fast Refresh] done in 106ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  332410ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  332419ms] ReferenceError: setBgReady is not defined
+    at ScrollingPreview.useEffect (http://localhost:3000/_next/static/chunks/src_11isfci._.js?id=%255Bproject%255D%252Fsrc%252Fcomponents%252Fscrolling-preview.tsx+%255Bapp-client%255D+%2528ecmascript%2529:78:65)
+[  332420ms] ReferenceError: setBgReady is not defined
+    at ScrollingPreview.useEffect (http://localhost:3000/_next/static/chunks/src_11isfci._.js?id=%255Bproject%255D%252Fsrc%252Fcomponents%252Fscrolling-preview.tsx+%255Bapp-client%255D+%2528ecmascript%2529:78:65)
+[  332420ms] ReferenceError: setBgReady is not defined
+    at ScrollingPreview.useEffect (http://localhost:3000/_next/static/chunks/src_11isfci._.js?id=%255Bproject%255D%252Fsrc%252Fcomponents%252Fscrolling-preview.tsx+%255Bapp-client%255D+%2528ecmascript%2529:78:65)
+[  332420ms] ReferenceError: setBgReady is not defined
+    at ScrollingPreview.useEffect (http://localhost:3000/_next/static/chunks/src_11isfci._.js?id=%255Bproject%255D%252Fsrc%252Fcomponents%252Fscrolling-preview.tsx+%255Bapp-client%255D+%2528ecmascript%2529:78:65)
+[  332420ms] ReferenceError: setBgReady is not defined
+    at ScrollingPreview.useEffect (http://localhost:3000/_next/static/chunks/src_11isfci._.js?id=%255Bproject%255D%252Fsrc%252Fcomponents%252Fscrolling-preview.tsx+%255Bapp-client%255D+%2528ecmascript%2529:78:65)
+[  332420ms] ReferenceError: setBgReady is not defined
+    at ScrollingPreview.useEffect (http://localhost:3000/_next/static/chunks/src_11isfci._.js?id=%255Bproject%255D%252Fsrc%252Fcomponents%252Fscrolling-preview.tsx+%255Bapp-client%255D+%2528ecmascript%2529:78:65)
+[  332420ms] ReferenceError: setBgReady is not defined
+    at ScrollingPreview.useEffect (http://localhost:3000/_next/static/chunks/src_11isfci._.js?id=%255Bproject%255D%252Fsrc%252Fcomponents%252Fscrolling-preview.tsx+%255Bapp-client%255D+%2528ecmascript%2529:78:65)
+[  332486ms] [LOG] [Fast Refresh] done in 49ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  333421ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  333452ms] [LOG] [Fast Refresh] done in 61ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  346955ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  347004ms] [LOG] [Fast Refresh] done in 126ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  351134ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  351182ms] [LOG] [Fast Refresh] done in 113ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  352001ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  352049ms] [LOG] [Fast Refresh] done in 124ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  385590ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  385628ms] [LOG] [Fast Refresh] done in 99ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  386397ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  386436ms] [LOG] [Fast Refresh] done in 101ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  386895ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  386943ms] [LOG] [Fast Refresh] done in 128ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  387801ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  387850ms] [LOG] [Fast Refresh] done in 122ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  388535ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  388583ms] [LOG] [Fast Refresh] done in 116ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  391264ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  391312ms] [LOG] [Fast Refresh] done in 117ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  392081ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  392128ms] [LOG] [Fast Refresh] done in 117ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  392542ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  392574ms] [LOG] [Fast Refresh] done in 46ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  393256ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  393287ms] [LOG] [Fast Refresh] done in 78ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  393812ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  393860ms] [LOG] [Fast Refresh] done in 108ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  394511ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  394590ms] [LOG] [Fast Refresh] done in 76ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  395517ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  395560ms] [LOG] [Fast Refresh] done in 95ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  396088ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  396135ms] [LOG] [Fast Refresh] done in 94ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  396836ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  396868ms] [LOG] [Fast Refresh] done in 125ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  397359ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  397392ms] [LOG] [Fast Refresh] done in 109ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  398099ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  398164ms] [LOG] [Fast Refresh] done in 123ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  398587ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  398630ms] [LOG] [Fast Refresh] done in 88ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  399300ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  399363ms] [LOG] [Fast Refresh] done in 124ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  402832ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  402879ms] [LOG] [Fast Refresh] done in 112ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  403700ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  403749ms] [LOG] [Fast Refresh] done in 116ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  408106ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  408155ms] [LOG] [Fast Refresh] done in 123ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  411718ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  411802ms] [LOG] [Fast Refresh] done in 145ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  423153ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  423224ms] [LOG] [Fast Refresh] done in 134ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  424460ms] [ERROR] The final argument passed to %s changed size between renders. The order and size of this array must remain constant.
+
+Previous: %s
+Incoming: %s useEffect [, (pageX, pageY, emoji, int)=>{
+            if (reducedMotion) return;
+            const normalizedX = (pageX - window.scrollX) / window.innerWidth;
+            const normalizedY = (pageY - window.scrollY) / window.innerHeight;
+            const burstCount = Math.round(2 + int * 8);
+            const particlesPerBurst = Math.round(5 + int * 25);
+            for(let i = 0; i < burstCount; i++){
+                const scalar = 1.5 + Math.random() * (3 + int * 4);
+                const emojiShape = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$canvas$2d$confetti$40$1$2e$9$2e$4$2f$node_modules$2f$canvas$2d$confetti$2f$dist$2f$confetti$2e$module$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].shapeFromText({
+                    text: emoji,
+                    scalar
+                });
+                (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$canvas$2d$confetti$40$1$2e$9$2e$4$2f$node_modules$2f$canvas$2d$confetti$2f$dist$2f$confetti$2e$module$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])({
+                    particleCount: particlesPerBurst,
+                    spread: 40 + int * 80 + Math.random() * 20,
+                    origin: {
+                        x: normalizedX,
+                        y: normalizedY
+                    },
+                    shapes: [
+                        emojiShape
+                    ],
+                    scalar,
+                    disableForReducedMotion: false,
+                    zIndex: 9999,
+                    startVelocity: 15 + int * 30 + Math.random() * 10,
+                    gravity: 0.6 + Math.random() * 0.4,
+                    drift: (Math.random() - 0.5) * (0.3 + int * 0.7)
+                });
+            }
+        }, (clientX, clientY, color, emoji, int)=>{
+            if (reducedMotion) return;
+            const id = `${Date.now()}-${Math.random()}`;
+            setShockwaves({
+                "RadialMenu.useCallback[spawnShockwave]": (prev)=>[
+                        ...prev,
+                        {
+                            id,
+                            x: clientX,
+                            y: clientY,
+                            color,
+                            emoji,
+                            intensity: int
+                        }
+                    ]
+            }["RadialMenu.useCallback[spawnShockwave]"]);
+            setTimeout({
+                "RadialMenu.useCallback[spawnShockwave]": ()=>{
+                    setShockwaves({
+                        "RadialMenu.useCallback[spawnShockwave]": (prev)=>prev.filter({
+                                "RadialMenu.useCallback[spawnShockwave]": (s)=>s.id !== id
+                            }["RadialMenu.useCallback[spawnShockwave]"])
+                    }["RadialMenu.useCallback[spawnShockwave]"]);
+                }
+            }["RadialMenu.useCallback[spawnShockwave]"], 1600);
+        }] [, (pageX, pageY, emoji, int)=>{
+            if (reducedMotion) return;
+            const normalizedX = (pageX - window.scrollX) / window.innerWidth;
+            const normalizedY = (pageY - window.scrollY) / window.innerHeight;
+            const burstCount = Math.round(2 + int * 8);
+            const particlesPerBurst = Math.round(5 + int * 25);
+            for(let i = 0; i < burstCount; i++){
+                const scalar = 1.5 + Math.random() * (3 + int * 4);
+                const emojiShape = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$canvas$2d$confetti$40$1$2e$9$2e$4$2f$node_modules$2f$canvas$2d$confetti$2f$dist$2f$confetti$2e$module$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].shapeFromText({
+                    text: emoji,
+                    scalar
+                });
+                (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$canvas$2d$confetti$40$1$2e$9$2e$4$2f$node_modules$2f$canvas$2d$confetti$2f$dist$2f$confetti$2e$module$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])({
+                    particleCount: particlesPerBurst,
+                    spread: 40 + int * 80 + Math.random() * 20,
+                    origin: {
+                        x: normalizedX,
+                        y: normalizedY
+                    },
+                    shapes: [
+                        emojiShape
+                    ],
+                    scalar,
+                    disableForReducedMotion: false,
+                    zIndex: 9999,
+                    startVelocity: 15 + int * 30 + Math.random() * 10,
+                    gravity: 0.6 + Math.random() * 0.4,
+                    drift: (Math.random() - 0.5) * (0.3 + int * 0.7)
+                });
+            }
+        }, (clientX, clientY, color, emoji, int)=>{
+            if (reducedMotion) return;
+            const id = `${Date.now()}-${Math.random()}`;
+            setShockwaves({
+                "RadialMenu.useCallback[spawnShockwave]": (prev)=>[
+                        ...prev,
+                        {
+                            id,
+                            x: clientX,
+                            y: clientY,
+                            color,
+                            emoji,
+                            intensity: int
+                        }
+                    ]
+            }["RadialMenu.useCallback[spawnShockwave]"]);
+            setTimeout({
+                "RadialMenu.useCallback[spawnShockwave]": ()=>{
+                    setShockwaves({
+                        "RadialMenu.useCallback[spawnShockwave]": (prev)=>prev.filter({
+                                "RadialMenu.useCallback[spawnShockwave]": (s)=>s.id !== id
+                            }["RadialMenu.useCallback[spawnShockwave]"])
+                    }["RadialMenu.useCallback[spawnShockwave]"]);
+                }
+            }["RadialMenu.useCallback[spawnShockwave]"], 1600);
+        }, (intensity = 0.5)=>{
+            try {
+                const ctx = getContext();
+                const buffer = confettiBufferRef.current;
+                if (!ctx || !buffer) return;
+                const source = ctx.createBufferSource();
+                source.buffer = buffer;
+                // Lower intensity = higher pitch (lighter pop), higher = deeper boom
+                source.playbackRate.value = 1.2 - intensity * 0.4;
+                source.detune.value = Math.random() * 100 - 50;
+                const gainNode = ctx.createGain();
+                gainNode.gain.value = 0.15 + intensity * 0.5;
+                source.connect(gainNode);
+                gainNode.connect(ctx.destination);
+                source.start(0);
+            } catch (err) {
+                console.error(err);
+            }
+        }] @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:3767
+[  438189ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  438220ms] [LOG] [Fast Refresh] done in 61ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  438702ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  438732ms] [LOG] [Fast Refresh] done in 63ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  439492ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  439522ms] ReferenceError: motionNumberRef is not defined
+    at GitHubStarsButton (http://localhost:3000/_next/static/chunks/src_0__~ovx._.js?id=%255Bproject%255D%252Fsrc%252Fcomponents%252Fui%252Fshadcn-io%252Fgithub-stars-button%252Findex.tsx+%255Bapp-client%255D+%2528ecmascript%2529:119:42)
+    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:15037:24)
+    at renderWithHooks (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:4620:24)
+    at updateFunctionComponent (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:6081:21)
+    at beginWork (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:6691:24)
+    at runWithFiberInDEV (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:965:74)
+    at performUnitOfWork (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:9555:97)
+    at workLoopSync (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:9449:40)
+    at renderRootSync (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:9433:13)
+    at performWorkOnRoot (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:9098:47)
+    at performSyncWorkOnRoot (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:10263:9)
+    at flushSyncWorkAcrossRoots_impl (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:10179:316)
+    at flushSyncWork$1 (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:9230:86)
+    at Object.scheduleRefresh (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:299:13)
+    at http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_0b9sk_x._.js:391:33
+    at Set.forEach (<anonymous>)
+    at Object.performReactRefresh (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_0b9sk_x._.js:384:38)
+    at applyUpdate (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_0b9sk_x._.js:878:31)
+    at http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_0b9sk_x._.js:886:13
+[  439558ms] [LOG] [Fast Refresh] done in 122ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  440230ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  440232ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  440234ms] [ERROR] Encountered a script tag while rendering React component. Scripts inside React components are never executed when rendering on the client. Consider using template tag instead (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template). @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:3767
+[  440245ms] ReferenceError: motionNumberRef is not defined
+    at GitHubStarsButton (http://localhost:3000/_next/static/chunks/src_0__~ovx._.js?id=%255Bproject%255D%252Fsrc%252Fcomponents%252Fui%252Fshadcn-io%252Fgithub-stars-button%252Findex.tsx+%255Bapp-client%255D+%2528ecmascript%2529:116:42)
+    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:15037:24)
+    at renderWithHooks (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:4620:24)
+    at updateFunctionComponent (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:6081:21)
+    at beginWork (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:6665:639)
+    at runWithFiberInDEV (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:965:74)
+    at performUnitOfWork (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:9555:97)
+    at workLoopSync (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:9449:40)
+    at renderRootSync (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:9433:13)
+    at performWorkOnRoot (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:9098:47)
+    at performSyncWorkOnRoot (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:10263:9)
+    at flushSyncWorkAcrossRoots_impl (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:10179:316)
+    at flushSyncWork$1 (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:9230:86)
+    at Object.scheduleRefresh (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:299:13)
+    at http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_0b9sk_x._.js:391:33
+    at Set.forEach (<anonymous>)
+    at Object.performReactRefresh (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_0b9sk_x._.js:384:38)
+    at applyUpdate (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_0b9sk_x._.js:878:31)
+    at http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_0b9sk_x._.js:886:13
+[  440329ms] [LOG] [Fast Refresh] done in 103ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  440436ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  440570ms] [LOG] [Fast Refresh] done in 241ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  440688ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:1
+[  440727ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  440742ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  440757ms] [ERROR] Encountered a script tag while rendering React component. Scripts inside React components are never executed when rendering on the client. Consider using template tag instead (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template). @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:3767
+[  441056ms] [LOG] {} @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  441057ms] [LOG] {} @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  441060ms] [TABLE] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  441098ms] [LOG] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  441100ms] [LOG] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  441101ms] [TABLE] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  441137ms] [LOG] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  441139ms] [LOG] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  441226ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  441228ms] [LOG] %cWhoa, look at you! 🕵️‍♂️
+You seem to have discovered the secret console! 🔍
+Want to see some magic? ✨
+Just type %cmy first name%c and hit enter! 🎩🐇 color: #FFD700; font-size: 16px; font-weight: bold; background-color: black; padding: 10px; border-radius: 10px; margin-top:20px color: #00FF00; font-size: 16px; font-weight: bold; background-color: black; padding: 10px; border-radius: 10px; margin-top:20px color: #FFD700; font-size: 16px; font-weight: bold; background-color: black; padding: 10px; border-radius: 10px; @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  441521ms] [LOG] [Fast Refresh] done in 1ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  442235ms] [WARNING] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  445608ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  445608ms] [LOG] [Fast Refresh] done in 107ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  448419ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  448430ms] ReferenceError: prevNumberRef is not defined
+    at SlidingNumber (http://localhost:3000/_next/static/chunks/src_0__~ovx._.js?id=%255Bproject%255D%252Fsrc%252Fcomponents%252Fui%252Fshadcn-io%252Fsliding-number%252Findex.tsx+%255Bapp-client%255D+%2528ecmascript%2529:129:40)
+    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:15037:24)
+    at renderWithHooks (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:4620:24)
+    at updateFunctionComponent (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:6081:21)
+    at beginWork (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:6691:24)
+    at runWithFiberInDEV (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:965:74)
+    at performUnitOfWork (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:9555:97)
+    at workLoopSync (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:9449:40)
+    at renderRootSync (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:9433:13)
+    at performWorkOnRoot (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:9098:47)
+    at performSyncWorkOnRoot (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:10263:9)
+    at flushSyncWorkAcrossRoots_impl (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:10179:316)
+    at flushSyncWork$1 (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:9230:86)
+    at Object.scheduleRefresh (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:299:13)
+    at http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_0b9sk_x._.js:391:33
+    at Set.forEach (<anonymous>)
+    at Object.performReactRefresh (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_0b9sk_x._.js:384:38)
+    at applyUpdate (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_0b9sk_x._.js:878:31)
+    at http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_0b9sk_x._.js:886:13
+[  448507ms] [LOG] [Fast Refresh] done in 67ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  449018ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  449019ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  449134ms] ReferenceError: prevNumberRef is not defined
+    at SlidingNumber.useEffect (http://localhost:3000/_next/static/chunks/src_0__~ovx._.js?id=%255Bproject%255D%252Fsrc%252Fcomponents%252Fui%252Fshadcn-io%252Fsliding-number%252Findex.tsx+%255Bapp-client%255D+%2528ecmascript%2529:151:13)
+    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:15087:22)
+    at runWithFiberInDEV (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:965:74)
+    at commitHookEffectListMount (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:7255:167)
+    at commitHookPassiveMountEffects (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:7290:60)
+    at commitPassiveMountOnFiber (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8689:33)
+    at recursivelyTraversePassiveMountEffects (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8676:316)
+    at commitPassiveMountOnFiber (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8750:17)
+    at recursivelyTraversePassiveMountEffects (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8676:316)
+    at commitPassiveMountOnFiber (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8750:17)
+    at recursivelyTraversePassiveMountEffects (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8676:316)
+    at commitPassiveMountOnFiber (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8750:17)
+    at recursivelyTraversePassiveMountEffects (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8676:316)
+    at commitPassiveMountOnFiber (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8750:17)
+    at recursivelyTraversePassiveMountEffects (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8676:316)
+    at commitPassiveMountOnFiber (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8750:17)
+    at recursivelyTraversePassiveMountEffects (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8676:316)
+    at commitPassiveMountOnFiber (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8750:17)
+    at recursivelyTraversePassiveMountEffects (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8676:316)
+    at commitPassiveMountOnFiber (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8750:17)
+    at recursivelyTraversePassiveMountEffects (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8676:316)
+    at commitPassiveMountOnFiber (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8688:17)
+    at recursivelyTraversePassiveMountEffects (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8676:316)
+    at commitPassiveMountOnFiber (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8688:17)
+    at recursivelyTraversePassiveMountEffects (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8676:316)
+    at commitPassiveMountOnFiber (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8750:17)
+    at recursivelyTraversePassiveMountEffects (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8676:316)
+    at commitPassiveMountOnFiber (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8750:17)
+    at recursivelyTraversePassiveMountEffects (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8676:316)
+    at commitPassiveMountOnFiber (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8750:17)
+    at recursivelyTraversePassiveMountEffects (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8676:316)
+    at commitPassiveMountOnFiber (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8688:17)
+    at recursivelyTraversePassiveMountEffects (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8676:316)
+    at commitPassiveMountOnFiber (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8688:17)
+    at recursivelyTraversePassiveMountEffects (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8676:316)
+    at commitPassiveMountOnFiber (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8688:17)
+    at recursivelyTraversePassiveMountEffects (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8676:316)
+    at commitPassiveMountOnFiber (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8750:17)
+    at recursivelyTraversePassiveMountEffects (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8676:316)
+    at commitPassiveMountOnFiber (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8688:17)
+    at recursivelyTraversePassiveMountEffects (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8676:316)
+    at commitPassiveMountOnFiber (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8688:17)
+    at recursivelyTraversePassiveMountEffects (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8676:316)
+    at commitPassiveMountOnFiber (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8750:17)
+    at recursivelyTraversePassiveMountEffects (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8676:316)
+    at commitPassiveMountOnFiber (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8688:17)
+    at recursivelyTraversePassiveMountEffects (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8676:316)
+    at commitPassiveMountOnFiber (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8750:17)
+    at recursivelyTraversePassiveMountEffects (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8676:316)
+    at commitPassiveMountOnFiber (http://localhost:3000/_next/static/chunks/036m_next_dist_compiled_react-dom_0951g1z._.js:8750:17)
+[  449148ms] [LOG] [Fast Refresh] done in 96ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  449570ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  449598ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  449797ms] [ERROR] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <div className="w-full max...">
+      <SectionHeader>
+      <div className="flex flex-...">
+        <div>
+        <div className="relative">
+          <ExperienceCard experience={{id:1,periods:[...], ...}} index={0}>
+            <motion.div initial={{opacity:0,y:20}} whileInView={{opacity:1,y:0}} transition={{duration:0.4, ...}} ...>
+              <div style={{opacity:0, ...}} ref={function useMotionRef.useCallback}>
+                <_c className="group bg-c...">
+                  <div ref={null} className="rounded-lg...">
+                    <_c2>
+                    <_c8 className="space-y-6">
+                      <div ref={null} className="p-6 pt-0 s...">
+                        <ul>
+                        <div className="flex flex-...">
+                          <Badge variant="outline" className="gap-1.5 te...">
+                            <div className="inline-fle...">
+                              <img
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
+                                alt=""
+                                className="w-3.5 h-3.5 object-contain grayscale opacity-60 transition duration-300 gro..."
+-                               loading="lazy"
+-                               width="14"
+-                               height="14"
+-                               decoding="async"
+-                               data-nimg="1"
+-                               style={{color:"transparent"}}
+                              >
+                              ...
+                          <Badge variant="outline" className="gap-1.5 te...">
+                            <div className="inline-fle...">
+                              <img
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                                alt=""
+                                className="w-3.5 h-3.5 object-contain grayscale opacity-60 transition duration-300 gro..."
+-                               loading="lazy"
+-                               width="14"
+-                               height="14"
+-                               decoding="async"
+-                               data-nimg="1"
+-                               style={{color:"transparent"}}
+                              >
+                              ...
+                          <Badge variant="outline" className="gap-1.5 te...">
+                            <div className="inline-fle...">
+                              <img
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+                                alt=""
+                                className="w-3.5 h-3.5 object-contain grayscale opacity-60 transition duration-300 gro..."
+-                               loading="lazy"
+-                               width="14"
+-                               height="14"
+-                               decoding="async"
+-                               data-nimg="1"
+-                               style={{color:"transparent"}}
+                              >
+                              ...
+                          <Badge variant="outline" className="gap-1.5 te...">
+                            <div className="inline-fle...">
+                              <img
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original..."
+                                alt=""
+                                className="w-3.5 h-3.5 object-contain grayscale opacity-60 transition duration-300 gro..."
+-                               loading="lazy"
+-                               width="14"
+-                               height="14"
+-                               decoding="async"
+-                               data-nimg="1"
+-                               style={{color:"transparent"}}
+                              >
+                              ...
+                          <Badge variant="outline" className="gap-1.5 te...">
+                            <div className="inline-fle...">
+                              <img
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-origin..."
+                                alt=""
+                                className="w-3.5 h-3.5 object-contain grayscale opacity-60 transition duration-300 gro..."
+-                               loading="lazy"
+-                               width="14"
+-                               height="14"
+-                               decoding="async"
+-                               data-nimg="1"
+-                               style={{color:"transparent"}}
+                              >
+                              ...
+                          <Badge variant="outline" className="gap-1.5 te...">
+                            <div className="inline-fle...">
+                              <img
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+                                alt=""
+                                className="w-3.5 h-3.5 object-contain grayscale opacity-60 transition duration-300 gro..."
+-                               loading="lazy"
+-                               width="14"
+-                               height="14"
+-                               decoding="async"
+-                               data-nimg="1"
+-                               style={{color:"transparent"}}
+                              >
+                              ...
+                          <Badge variant="outline" className="gap-1.5 te...">
+                            <div className="inline-fle...">
+                              <img
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cloudflare/cloudflare-original..."
+                                alt=""
+                                className="w-3.5 h-3.5 object-contain grayscale opacity-60 transition duration-300 gro..."
+-                               loading="lazy"
+-                               width="14"
+-                               height="14"
+-                               decoding="async"
+-                               data-nimg="1"
+-                               style={{color:"transparent"}}
+                              >
+                              ...
+        <div className="relative">
+          <ExperienceCard experience={{id:2,periods:[...], ...}} index={1}>
+            <motion.div initial={{opacity:0,y:20}} whileInView={{opacity:1,y:0}} transition={{duration:0.4, ...}} ...>
+              <div style={{opacity:0, ...}} ref={function useMotionRef.useCallback}>
+                <_c className="group bg-c...">
+                  <div ref={null} className="rounded-lg...">
+                    <_c2>
+                    <_c8 className="space-y-6">
+                      <div ref={null} className="p-6 pt-0 s...">
+                        <ul>
+                        <div className="flex flex-...">
+                          <Badge variant="outline" className="gap-1.5 te...">
+                            <div className="inline-fle...">
+                              <img
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
+                                alt=""
+                                className="w-3.5 h-3.5 object-contain grayscale opacity-60 transition duration-300 gro..."
+-                               loading="lazy"
+-                               width="14"
+-                               height="14"
+-                               decoding="async"
+-                               data-nimg="1"
+-                               style={{color:"transparent"}}
+                              >
+                              ...
+                          <Badge variant="outline" className="gap-1.5 te...">
+                            <div className="inline-fle...">
+                              <img
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original..."
+                                alt=""
+                                className="w-3.5 h-3.5 object-contain grayscale opacity-60 transition duration-300 gro..."
+-                               loading="lazy"
+-                               width="14"
+-                               height="14"
+-                               decoding="async"
+-                               data-nimg="1"
+-                               style={{color:"transparent"}}
+                              >
+                              ...
+                          <Badge variant="outline" className="gap-1.5 te...">
+                            <div className="inline-fle...">
+                              <img
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                                alt=""
+                                className="w-3.5 h-3.5 object-contain grayscale opacity-60 transition duration-300 gro..."
+-                               loading="lazy"
+-                               width="14"
+-                               height="14"
+-                               decoding="async"
+-                               data-nimg="1"
+-                               style={{color:"transparent"}}
+                              >
+                              ...
+                          <Badge variant="outline" className="gap-1.5 te...">
+                            <div className="inline-fle...">
+                              <img
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+                                alt=""
+                                className="w-3.5 h-3.5 object-contain grayscale opacity-60 transition duration-300 gro..."
+-                               loading="lazy"
+-                               width="14"
+-                               height="14"
+-                               decoding="async"
+-                               data-nimg="1"
+-                               style={{color:"transparent"}}
+                              >
+                              ...
+                          <Badge variant="outline" className="gap-1.5 te...">
+                            <div className="inline-fle...">
+                              <img
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+                                alt=""
+                                className="w-3.5 h-3.5 object-contain grayscale opacity-60 transition duration-300 gro..."
+-                               loading="lazy"
+-                               width="14"
+-                               height="14"
+-                               decoding="async"
+-                               data-nimg="1"
+-                               style={{color:"transparent"}}
+                              >
+                              ...
+                          <Badge variant="outline" className="gap-1.5 te...">
+                            <div className="inline-fle...">
+                              <img
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+                                alt=""
+                                className="w-3.5 h-3.5 object-contain grayscale opacity-60 transition duration-300 gro..."
+-                               loading="lazy"
+-                               width="14"
+-                               height="14"
+-                               decoding="async"
+-                               data-nimg="1"
+-                               style={{color:"transparent"}}
+                              >
+                              ...
+                          <Badge variant="outline" className="gap-1.5 te...">
+                            <div className="inline-fle...">
+                              <img
+                                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-origin..."
+                                alt=""
+                                className="w-3.5 h-3.5 object-contain grayscale opacity-60 transition duration-300 gro..."
+-                               loading="lazy"
+-                               width="14"
+-                               height="14"
+-                               decoding="async"
+-                               data-nimg="1"
+-                               style={{color:"transparent"}}
+                              >
+                              ...
+ @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:3767
+[  449957ms] [LOG] {} @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  449959ms] [LOG] {} @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  449967ms] [TABLE] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  450000ms] [LOG] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  450001ms] [LOG] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  450003ms] [TABLE] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  450033ms] [LOG] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  450035ms] [LOG] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  450162ms] [LOG] %cWhoa, look at you! 🕵️‍♂️
+You seem to have discovered the secret console! 🔍
+Want to see some magic? ✨
+Just type %cmy first name%c and hit enter! 🎩🐇 color: #FFD700; font-size: 16px; font-weight: bold; background-color: black; padding: 10px; border-radius: 10px; margin-top:20px color: #00FF00; font-size: 16px; font-weight: bold; background-color: black; padding: 10px; border-radius: 10px; margin-top:20px color: #FFD700; font-size: 16px; font-weight: bold; background-color: black; padding: 10px; border-radius: 10px; @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  450418ms] [WARNING] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  469401ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  469437ms] [LOG] [Fast Refresh] done in 108ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  470392ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  470431ms] [LOG] [Fast Refresh] done in 100ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  470999ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  471036ms] [LOG] [Fast Refresh] done in 87ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  471573ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  471618ms] [LOG] [Fast Refresh] done in 96ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  488189ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  488222ms] [LOG] [Fast Refresh] done in 108ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  489093ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926
+[  489134ms] [LOG] [Fast Refresh] done in 99ms @ http://localhost:3000/_next/static/chunks/036m_next_dist_05al.tw._.js:2926

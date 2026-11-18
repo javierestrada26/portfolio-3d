@@ -7,13 +7,7 @@ export const useConnectionStatus = (socket: Socket | null): ConnectionStatus => 
   const [status, setStatus] = useState<ConnectionStatus>("connecting");
 
   useEffect(() => {
-    if (!socket) {
-      setStatus("disconnected");
-      return;
-    }
-
-    if (socket.connected) setStatus("connected");
-    else setStatus("connecting");
+    if (!socket) return;
 
     const onConnect = () => setStatus("connected");
     const onDisconnect = () => setStatus("disconnected");
@@ -33,5 +27,6 @@ export const useConnectionStatus = (socket: Socket | null): ConnectionStatus => 
     };
   }, [socket]);
 
-  return status;
+  if (!socket) return "disconnected";
+  return socket.connected ? "connected" : status;
 };

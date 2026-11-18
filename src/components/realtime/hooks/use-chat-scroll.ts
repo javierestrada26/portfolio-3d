@@ -80,6 +80,7 @@ export const useChatScroll = (
     }
     if (isAtBottomRef.current) {
       lastSeenId.current = lastMsgIdRef.current;
+      // eslint-disable-next-line react-hooks/set-state-in-effect -- syncs unread count with the measured DOM scroll position
       setUnreads(0);
     }
     setShowScrollButton(!isAtBottomRef.current);
@@ -142,6 +143,7 @@ export const useChatScroll = (
     if (!prev || lastMsgIsMine || reading) lastSeenId.current = lastMsgId;
     if (!prev) return;
 
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- reacts to a new incoming message, which is an external event
     if (lastMsgIsMine) scrollToBottom(true);
     else if (!reading) setUnreads(n => n + 1);
   }, [lastMsgId, lastMsgIsMine, scrollToBottom]);

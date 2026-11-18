@@ -14,8 +14,8 @@ const ExperienceSection = () => {
       <div className="w-full max-w-4xl px-4 md:px-8 mx-auto">
         <SectionHeader
           id="experience"
-          title="Experience"
-          desc="My professional journey."
+          title="Experiencia"
+          desc="Mi trayectoria profesional."
           className="mb-12 md:mb-20 mt-0"
         />
 
@@ -120,6 +120,7 @@ const ExperienceCard = ({
                   className="gap-1.5 text-xs font-normal text-muted-foreground bg-secondary/30 border-transparent"
                 >
                   {/* mono until card hover -> less noise across 10+ logos */}
+                  {/* eslint-disable-next-line @next/next/no-img-element -- 14px static icons; next/image caused a hydration attribute mismatch here */}
                   <img
                     src={skill.icon}
                     alt=""

@@ -1,0 +1,259 @@
+- generic [active] [ref=f11e1]:
+  - banner [ref=f11e3]:
+    - generic [ref=f11e4]:
+      - link [ref=f11e5] [cursor=pointer]:
+        - /url: /
+        - button "Naresh Khatri" [ref=f11e6]
+      - button "Toggle theme" [ref=f11e7] [cursor=pointer]
+      - link "0 1 2 3 4 5 6 7 8 9" [ref=f11e8] [cursor=pointer]:
+        - /url: https://github.com/naresh-khatri/3d-portfolio
+        - generic [ref=f11e13]:
+          - generic [ref=f11e14]: "0"
+          - generic [ref=f11e15]: "1"
+          - generic [ref=f11e16]: "2"
+          - generic [ref=f11e17]: "3"
+          - generic [ref=f11e18]: "4"
+          - generic [ref=f11e19]: "5"
+          - generic [ref=f11e20]: "6"
+          - generic [ref=f11e21]: "7"
+          - generic [ref=f11e22]: "8"
+          - generic [ref=f11e23]: "9"
+      - button "Open menu" [ref=f11e25] [cursor=pointer]:
+        - generic:
+          - paragraph: Menu
+          - paragraph: Close
+  - main:
+    - generic:
+      - generic:
+        - generic:
+          - link [ref=f11e26] [cursor=pointer]:
+            - /url: "#skills"
+            - heading "Tech Stack" [level=2] [ref=f11e29]
+          - paragraph [ref=f11e30]: Tools I build with
+        - list:
+          - listitem [ref=f11e31]:
+            - img "JavaScript" [ref=f11e33]
+            - generic [ref=f11e34]: JavaScript
+          - listitem [ref=f11e35]:
+            - img "TypeScript" [ref=f11e37]
+            - generic [ref=f11e38]: TypeScript
+          - listitem [ref=f11e39]:
+            - img "React" [ref=f11e41]
+            - generic [ref=f11e42]: React
+          - listitem [ref=f11e43]:
+            - img "Next.js" [ref=f11e45]
+            - generic [ref=f11e46]: Next.js
+          - listitem [ref=f11e47]:
+            - img "Vue" [ref=f11e49]
+            - generic [ref=f11e50]: Vue
+          - listitem [ref=f11e51]:
+            - img "Expo" [ref=f11e53]
+            - generic [ref=f11e54]: Expo
+          - listitem [ref=f11e55]:
+            - img "Tailwind" [ref=f11e57]
+            - generic [ref=f11e58]: Tailwind
+          - listitem [ref=f11e59]:
+            - img "Node.js" [ref=f11e61]
+            - generic [ref=f11e62]: Node.js
+          - listitem [ref=f11e63]:
+            - img "Express" [ref=f11e65]
+            - generic [ref=f11e66]: Express
+          - listitem [ref=f11e67]:
+            - img "Bun" [ref=f11e69]
+            - generic [ref=f11e70]: Bun
+          - listitem [ref=f11e71]:
+            - img "PostgreSQL" [ref=f11e73]
+            - generic [ref=f11e74]: PostgreSQL
+          - listitem [ref=f11e75]:
+            - img "MongoDB" [ref=f11e77]
+            - generic [ref=f11e78]: MongoDB
+          - listitem [ref=f11e79]:
+            - img "Linux" [ref=f11e81]
+            - generic [ref=f11e82]: Linux
+          - listitem [ref=f11e83]:
+            - img "Git" [ref=f11e85]
+            - generic [ref=f11e86]: Git
+          - listitem [ref=f11e87]:
+            - img "Vim" [ref=f11e89]
+            - generic [ref=f11e90]: Vim
+          - listitem [ref=f11e91]:
+            - img "Docker" [ref=f11e93]
+            - generic [ref=f11e94]: Docker
+          - listitem [ref=f11e95]:
+            - img "NginX" [ref=f11e97]
+            - generic [ref=f11e98]: NginX
+          - listitem [ref=f11e99]:
+            - img "Claude" [ref=f11e101]
+            - generic [ref=f11e102]: Claude
+          - listitem [ref=f11e103]:
+            - img "Cloudflare" [ref=f11e105]
+            - generic [ref=f11e106]: Cloudflare
+          - listitem [ref=f11e107]:
+            - img "Google Cloud" [ref=f11e109]
+            - generic [ref=f11e110]: Google Cloud
+          - listitem [ref=f11e111]:
+            - img "AWS" [ref=f11e113]
+            - generic [ref=f11e114]: AWS
+          - listitem [ref=f11e115]:
+            - img "Home Assistant" [ref=f11e117]
+            - generic [ref=f11e118]: Home Assistant
+          - listitem [ref=f11e119]:
+            - img "Proxmox" [ref=f11e121]
+            - generic [ref=f11e122]: Proxmox
+          - listitem [ref=f11e123]:
+            - img "Steam" [ref=f11e125]
+            - generic [ref=f11e126]: Steam
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - link [ref=f11e127] [cursor=pointer]:
+              - /url: "#experience"
+              - heading "Experience" [level=2] [ref=f11e130]
+            - paragraph [ref=f11e131]: My professional journey.
+          - generic:
+            - generic [ref=f11e132]:
+              - generic [ref=f11e134]:
+                - generic [ref=f11e135]:
+                  - heading "Freelance Full Stack Developer" [level=3] [ref=f11e136]
+                  - generic [ref=f11e137]: Self-employed · Remote
+                - list [ref=f11e138]:
+                  - listitem [ref=f11e140]: Oct 2026 - Present
+                  - listitem [ref=f11e144]: Apr 2022 - Dec 2024
+              - generic [ref=f11e147]:
+                - list [ref=f11e148]:
+                  - listitem [ref=f11e149]: Leading the build of an audit, tax and secretarial platform for a Malaysian CA firm.
+                  - listitem [ref=f11e150]: Shipped 12+ client projects solo, from the first scoping call to deploy and handover.
+                  - listitem [ref=f11e151]: Replaced spreadsheet workflows with dashboards, cutting weekly reporting from 6h to 30m.
+                  - listitem [ref=f11e152]: Built admin panels and CMSs so non-technical clients could stop emailing me for edits.
+                  - listitem [ref=f11e153]: Ran client infra on Docker, Nginx and Cloudflare at 99.9% uptime with nightly backups.
+                - generic [ref=f11e154]:
+                  - generic [ref=f11e155]: Next.js
+                  - generic [ref=f11e156]: React
+                  - generic [ref=f11e157]: Node.js
+                  - generic [ref=f11e158]: PostgreSQL
+                  - generic [ref=f11e159]: Tailwind
+                  - generic [ref=f11e160]: Docker
+                  - generic [ref=f11e161]: Cloudflare
+            - generic [ref=f11e162]:
+              - generic [ref=f11e164]:
+                - generic [ref=f11e165]:
+                  - heading "Full Stack Developer" [level=3] [ref=f11e166]
+                  - generic [ref=f11e167]: OmniNexus Sdn Bhd · Kuala Lumpur
+                - list [ref=f11e168]:
+                  - listitem [ref=f11e169]: Dec 2024 - Oct 2026
+              - generic [ref=f11e172]:
+                - list [ref=f11e173]:
+                  - listitem [ref=f11e174]: Built an in-browser image editor from scratch and cancelled a $6k/year SaaS plan.
+                  - listitem [ref=f11e175]: Scaled the AI job pipeline to 3k+ tasks a day, with retries keeping failures under 1%.
+                  - listitem [ref=f11e176]: Cut image load times by 45% with resized variants, AVIF and smarter CDN caching.
+                  - listitem [ref=f11e177]: Rewrote slow database queries, taking key dashboards from 4s to under 600ms.
+                  - listitem [ref=f11e178]: Shipped 30+ features end-to-end and set up CI with preview deploys for every PR.
+                - generic [ref=f11e179]:
+                  - generic [ref=f11e180]: Next.js
+                  - generic [ref=f11e181]: TypeScript
+                  - generic [ref=f11e182]: React
+                  - generic [ref=f11e183]: Node.js
+                  - generic [ref=f11e184]: MongoDB
+                  - generic [ref=f11e185]: Docker
+                  - generic [ref=f11e186]: Google Cloud
+    - generic:
+      - generic:
+        - generic:
+          - link [ref=f11e187] [cursor=pointer]:
+            - /url: "#projects"
+            - heading "Projects" [level=2] [ref=f11e190]
+          - paragraph
+        - generic:
+          - button [ref=f11e191] [cursor=pointer]:
+            - generic [ref=f11e192]:
+              - img "StoreKit"
+              - generic:
+                - generic:
+                  - generic: StoreKit
+                  - generic: Commerce platform
+          - button [ref=f11e193] [cursor=pointer]:
+            - generic [ref=f11e194]:
+              - img "unottr"
+              - generic:
+                - generic:
+                  - generic: unottr
+                  - generic: Local-first desktop app
+          - button [ref=f11e195] [cursor=pointer]:
+            - generic [ref=f11e196]:
+              - img "Coding Ducks"
+              - generic:
+                - generic:
+                  - generic: Coding Ducks
+                  - generic: Real-time coding platform
+          - button [ref=f11e197] [cursor=pointer]:
+            - generic [ref=f11e198]:
+              - img "Gumbalup"
+              - generic:
+                - generic:
+                  - generic: Gumbalup
+                  - generic: Real-time quiz platform
+          - button [ref=f11e199] [cursor=pointer]:
+            - generic [ref=f11e200]:
+              - img "PeakPosts"
+              - generic:
+                - generic:
+                  - generic: PeakPosts
+                  - generic: AI social SaaS
+          - button [ref=f11e201] [cursor=pointer]:
+            - generic [ref=f11e202]:
+              - img "Kanbi"
+              - generic:
+                - generic:
+                  - generic: Kanbi
+                  - generic: Realtime project tracker
+          - button [ref=f11e203] [cursor=pointer]:
+            - generic [ref=f11e204]:
+              - img "My Portfolio"
+              - generic:
+                - generic:
+                  - generic: My Portfolio
+                  - generic: Portfolio
+    - generic:
+      - generic:
+        - generic:
+          - link [ref=f11e205] [cursor=pointer]:
+            - /url: "#contact"
+            - heading "LET'S WORK TOGETHER" [level=2] [ref=f11e208]
+          - paragraph
+        - generic [ref=f11e209]:
+          - generic [ref=f11e210]:
+            - heading "Contact Form" [level=3] [ref=f11e211]
+            - paragraph [ref=f11e212]:
+              - text: Please contact me directly at
+              - link "naresh.khatri2345(at)gmail.com" [ref=f11e213] [cursor=pointer]:
+                - /url: mailto:naresh.khatri2345@gmail.com
+              - text: or drop your info here.
+          - generic [ref=f11e215]:
+            - generic [ref=f11e216]:
+              - generic [ref=f11e217]:
+                - generic [ref=f11e218]: Full name
+                - textbox "Full name" [ref=f11e220]:
+                  - /placeholder: Your Name
+              - generic [ref=f11e221]:
+                - generic [ref=f11e222]: Email Address
+                - textbox "Email Address" [ref=f11e224]:
+                  - /placeholder: you@example.com
+            - generic [ref=f11e225]:
+              - generic [ref=f11e226]: Your Message
+              - textbox "Your Message" [ref=f11e228]:
+                - /placeholder: Tell me about about your project,
+              - paragraph [ref=f11e229]: I'll never share your data with anyone else. Pinky promise!
+            - button "Send Message" [ref=f11e230] [cursor=pointer]
+  - contentinfo [ref=f11e235]:
+    - paragraph [ref=f11e236]: © 2026 Naresh Khatri. All rights reserved.
+    - navigation [ref=f11e237]:
+      - link [ref=f11e238] [cursor=pointer]:
+        - /url: /blogs
+        - button "Blog" [ref=f11e239]
+      - link [ref=f11e240] [cursor=pointer]:
+        - /url: /news
+        - button "Newsletter" [ref=f11e241]
+  - region "Notifications (F8)":
+    - list
+  - button "Open Next.js Dev Tools" [ref=f11e247] [cursor=pointer]

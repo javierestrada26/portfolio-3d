@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import { cn } from "@/lib/utils";
 import React, { useEffect, useState } from "react";
 import {
@@ -67,7 +68,7 @@ const AnimatedDiv = ({
   onClick: () => void;
   onCompleted: () => void;
 }) => {
-  const randY = getRandomHeight();
+  const [randY] = React.useState(getRandomHeight);
 
   const controls = useAnimationControls();
 
@@ -77,7 +78,7 @@ const AnimatedDiv = ({
       y: randY,
       transition: { duration: 5, ease: "linear" },
     });
-  }, [controls]);
+  }, [controls, randY]);
 
   const handlePause = () => {
     onClick();
@@ -91,8 +92,11 @@ const AnimatedDiv = ({
       onAnimationComplete={onCompleted}
       onClick={handlePause}
     >
-      <img
+      <Image
         src="/assets/nyan-cat.gif"
+        width={320}
+        height={160}
+        unoptimized
         className={cn("fixed z-10 h-40 w-auto")}
         alt="Nyan Cat"
       />

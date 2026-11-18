@@ -5,8 +5,18 @@ import { blur, translate } from "../../anim";
 import { Link as LinkType } from "@/types";
 import { cn } from "@/lib/utils";
 import { useParams } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useSyncExternalStore } from "react";
 import FunnyThemeToggle from "@/components/theme/funny-theme-toggle";
+
+const subscribeToLocation = (onChange: () => void) => {
+  window.addEventListener("popstate", onChange);
+  window.addEventListener("hashchange", onChange);
+  return () => {
+    window.removeEventListener("popstate", onChange);
+    window.removeEventListener("hashchange", onChange);
+  };
+};
+const getLocationHref = () => window.location.pathname + window.location.hash;
 
 interface SelectedLink {
   isActive: boolean;
@@ -26,13 +36,13 @@ export default function Body({
   setSelectedLink,
   setIsActive,
 }: BodyProps) {
-  const params = useParams();
-  const [currentHref, setCurrentHref] = useState("/");
-  useEffect(() => {
-    if (typeof window === "undefined") return;
-    const { pathname, hash } = window.location;
-    setCurrentHref(pathname + hash);
-  }, [params]);
+  // Next navigates with pushState (no popstate), so re-render on route change to refresh the href.
+  useParams();
+  const currentHref = useSyncExternalStore(
+    subscribeToLocation,
+    getLocationHref,
+    () => "/"
+  );
 
   const getChars = (word: string) => {
     let chars: React.JSX.Element[] = [];
