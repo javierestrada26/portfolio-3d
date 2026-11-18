@@ -90,7 +90,7 @@ const HeroSection = () => {
                   <BoxReveal delay={2} width="100%" >
                     <Button className="flex items-center gap-2 w-full">
                       <File size={24} />
-                      <p>Resume</p>
+                      <p>CV</p>
                     </Button>
                   </BoxReveal>
                 </Link>
@@ -102,7 +102,7 @@ const HeroSection = () => {
                           variant={"outline"}
                           className="block w-full overflow-hidden"
                         >
-                          Hire Me
+                          Contáctame
                         </Button>
                       </Link>
                     </TooltipTrigger>
